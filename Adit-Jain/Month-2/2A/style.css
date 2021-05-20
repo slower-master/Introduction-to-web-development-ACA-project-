@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    padding: 10px;
+    padding-top: 20px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(https://previews.123rf.com/images/oly5/oly51203/oly5120300285/12614587-old-crushed-paper-background.jpg);
+}
+
+h1{
+    background: rgb(255,195,117);
+    text-align: center;
+}
+h2{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-weight: 900;
+}
+p{
+    text-align: center;
+    line-height: 20px;
+    padding-top: 10px;
+}
+
+table{
+    border: 1px dotted black;
+    margin-top: 10px;
+}
+th{
+    border: 1px dotted black;
+    font-weight: bold;
+    padding: 2px;
+    font-size: 20px;
+}
+td{
+    padding: 2px;
+    border: 1px dotted black;
+}
+td:first-child{
+    font-weight: bold;
+}
+td:last-child{
+    font-style: italic;
+}
+
+ol{
+    font-size: 20px;
+    padding-left: 50px;
+}
+ul{
+    padding-left: 30px;
+}
+ul li a{
+    color: rgb(232, 182, 100);
+}
+span{
+    font-size: 16px;
+    font-style: italic;
+}
+img{
+    margin-top: 10px;
+    width: 200px;
+    height: auto;
+}
