@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="Assignment 2A.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Joe Oddo</h1>
+    <h2><i>Web developer</i></h2>
+    <center>Hi I am Joe Oddo skilled Web developer.You wanted a cool website?<br><br>
+        You have come to right place!.<br><br></center>
+    <b>Why hire Joe Oddo?</b><br><br>
+    <table>
+        <tr>
+            <th style="color: red;">Declared</th>
+            <th style="color: green;">Real life</th>
+        </tr>
+        <tr>
+            <td>Solid professional education</td>
+            <td style="font-size: small;"><i>Coursera web programming course completed by 0,33%</i></td>
+        </tr>
+        <tr>
+            <td>Experienced developer</td>
+            <td style="font-size: small;"><i>This project only...so far</i></td>
+        </tr>
+        <tr>
+            <td>Web ninja!</td>
+            <td style="font-size: small;"><i>Html and css basics</i></td>
+        </tr>
+    </table>
+    <br>
+    <b>Amazing Portfolio</b>
+    <ol>
+        <li>Cool personal pages(to be done one day)by Joe Oddo
+            <ul>
+                <li><a href="#">Luis Henrique Bizzaro</a>-frontend developer personal page</li>
+                <li><a href="#">PETER TOTH</a>-web dev and designer personal page</li>
+                <li><a href="#">Alexander</a>-founder of creative agency</li>
+            </ul>
+        </li>
+        <li>
+            Joe is working hard
+        </li>
+    </ol>
+    <span>Yes ,Joe is staring at desktop wallpaper. It's ok.</span><br><br>
+    <div><img
+            src="https://images-ext-1.discordapp.net/external/8UhZJucJd3EwyaXAdEx_achkEfywW-AnrIUo4NMNcOI/https/i.imgur.com/7LDWGHB.jpg"
+            width="150px" height="100px"></div><br>
+    <b><i style="padding-left: 100px;"> Thanks for visiting!</i></b>
+</body>
+
+</html>
