@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap');
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: rgb(62, 178, 255);
+    margin: 150px;
+    padding: 50px;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.content {
+    display:inline-block;
+    align-items: center;
+    background-color: white;
+    width: 1550px;
+    height: 750px;
+    border-radius: 15px;
+    
+}
+
+.division {
+    display:inline-block;
+    box-sizing: border-box;
+    margin: 30px;
+    max-width: 1100px;
+}
+
+.division-image {
+    padding: 20px;
+}
+
+.division-title {
+    text-transform:uppercase;
+    text-align: center;
+    padding: 15px;
+    color: rgb(116, 116, 116);
+    font-size: 25px;
+}
+
+.division-content {
+    border-top: .25px solid rgb(197, 220, 255);
+    text-transform:uppercase;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    color: rgb(0, 153, 255);
+    font-size: 15px;
+}
+
+.middle-division {
+    border-left: .05px solid rgb(197, 220, 255);
+    border-right: .05px solid rgb(197, 220, 255);
+}
+
+.container {
+    font-size: 30px;
+}
+
+.button {
+    background-color: rgb(255, 255, 255);
+    text-transform:uppercase;
+    
+    
+    width: 180px;
+    height: 40px;
+    border:0.5px solid rgb(197, 220, 255);
+    border-radius: 15px;
+    color: rgb(62, 178, 255);
+    font-size: 25px;
+}
+
+.middle-button {
+    background-color: rgb(62, 178, 255);
+    color: white;
+    text-transform:uppercase;
+    text-align: center;
+    padding: 10px;
+    margin: 30px;
+    width: 180px;
+    height: 40px;
+    border:0.5px solid rgb(197, 220, 255);
+    border-radius: 15px;
+    font-size: 25px;
+}
+
+.button-padding {
+    padding-left: 80px;
+    margin: 20px;
+}
