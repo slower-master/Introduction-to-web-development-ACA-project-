@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+    <title>Task 2(b)</title>
+    <style>
+        *{
+            font-family: 'Open Sans', sans-serif;
+            background-color: rgb(94, 173, 248);
+        }
+        .container{
+            height:500px;
+            width:1000px;
+            margin: auto;
+            margin-top: 100px;
+            border-radius: 10px;
+            display:flex;
+            text-align: center;
+            background-color: white;
+            padding:50px;
+        }
+        .item{
+            width:800px;
+            height:300px;
+            background-color: white;
+            margin:10px;
+            padding: 0 50px 0 50px;
+        }
+        .vl{
+            border-right:1px solid rgba(187, 217, 245, 0.932);
+            height:500px;
+        }
+        .item img{
+            background-color: white;
+            height:100px;
+            width: 160px;
+            display: block;
+            margin-top:0px;
+            margin-left: 40px;
+        }
+        button{
+            display:block;
+            color:rgb(94, 173, 248);
+            background-color: white;
+            border-radius: 10px;
+            border-color: rgba(187, 217, 245, 0.932);
+            margin-left: auto;
+            margin-right:auto;  
+            margin-top:10px;
+            width:130px;
+            height:50px;
+        }
+        #buttonmid{
+            color:white;
+            background-color: rgb(94, 173, 248);
+        }
+        .content{
+            background-color: white;
+            padding:10px;
+            color:rgb(94, 173, 248);
+            font-size: 13px;
+        }
+        hr{
+            background-color: lightblue;
+            border:none;
+            height:0.1px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item vl" id="item-1">
+            <img src="https://cdn.discordapp.com/attachments/843014962263490600/844795531888427038/icon1.png" alt="icon1">
+            <div class="content" style="color: grey; padding-bottom: 50px;">PERSONAL</div>
+            <hr>
+            <div class="content">CUSTOM DOMAINS</div>
+            <hr>
+            <div class="content">SLEEPS AFTER 30 MINS OF INACTIVITY</div>
+            <hr>
+            <div class="content" style="font-size: 40px; color: rgb(3, 61, 221);">FREE</div>
+            <button>
+                SIGN UP
+            </button>
+        </div>
+        <div class="item vl" id="item-2">
+            <img src="https://cdn.discordapp.com/attachments/843014962263490600/844795536610951188/icon2.png" alt="icon2">
+            <div class="content" style="color: grey; padding-bottom: 50px;">SMALL TEAM</div>
+            <hr>
+            <div class="content">NEVER SLEEPS</div>
+            <hr>
+            <div class="content">MULTIPLE WORKERS FOR MORE POWERFUL APPS</div>
+            <hr>
+            <div class="content" style="font-size: 40px; color: rgb(3, 61, 221);">$150</div>
+            <button id="buttonmid">
+                FREE TRIAL
+            </button>
+           
+        </div>
+        <div class="item " id="item-3">
+            <img src="https://cdn.discordapp.com/attachments/843014962263490600/844795541131886602/icon3.png" alt="icon3">
+            <div class="content" style="color: grey; padding-bottom: 50px;">ENTERPRISE</div>
+            <hr>
+            <div class="content">DEDICATED</div>
+            <hr>
+           <div class="content"> SIMPLE HORIZONTAL SCALABILITY</div>
+            <hr>
+            <div class="content" style="font-size: 40px; color: rgb(3, 61, 221);">$400</div>
+            <button>
+                FREE TRIAL
+            </button>
+        </div>
+    </div>
+</body>
+</html>
