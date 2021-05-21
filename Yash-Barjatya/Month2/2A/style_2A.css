@@ -1,0 +1,54 @@
+body{
+    background-image: url(https://i.imgur.com/z15CCqC.jpg);
+}
+
+h1{
+    background-color: orange;
+    text-align: center ;
+}
+h2{
+  
+    text-align: center ;
+    font-style: italic;
+}
+table{
+    border: 2px dotted darkgrey ;
+    margin-top: 10px;
+}
+
+#c1
+{
+    
+    border: 2px dotted darkgrey ;
+    width: 200px;
+    height: 20px;
+    text-align: left;
+    font-weight: normal;
+}
+#c2
+{
+   
+    border: 2px dotted darkgrey ;
+    width: 400px;
+    height: 20px;
+    text-align: left;
+    font-weight: normal;
+}
+#first
+{
+    text-align: center ;
+}
+a{
+    color: orange;
+    font-family: monospace;
+    font-size: 15px;
+}
+img
+{
+   margin-left: 30px;
+    height: 100px;
+}
+h4{
+    margin-left: 40px;
+    font-style: italic;
+}
