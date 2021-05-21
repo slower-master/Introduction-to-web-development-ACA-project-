@@ -1,0 +1,40 @@
+body{
+    background-image: url(https://i.imgur.com/z15CCqC.jpeg);
+}
+
+.top{
+    text-align: center;
+}
+.head0{
+    background-color: rgba(255, 166, 0, 0.658);
+}
+#head1 {
+    font-style: oblique;
+    font-family:fantasy;
+    font-weight: 400;
+}
+.table #colomn1{
+    color: red;
+    border: 1px dotted black;
+}
+.table #colomn2{
+    color: green;
+    border: 1px dotted black;
+}
+#l1{
+    color: rgb(255, 166, 0);
+   
+}
+#list2{
+    font-style: oblique;
+}
+table{
+    
+    border: 1px dotted ;
+    text-decoration: dotted;
+    text-indent: 2px;
+}
+#j{
+    border: dotted 1px;
+
+}
