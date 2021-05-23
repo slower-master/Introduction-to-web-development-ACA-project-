@@ -1,0 +1,54 @@
+body {
+    background-image: url("https://images-ext-1.discordapp.net/external/1KbDMr8d51g4PIOclp8gZNAvsxO3DUqmbW-Ygk_tJVA/https/i.imgur.com/z15CCqC.jpg?width=500&height=349");
+}
+
+h1 {
+    text-align: center;
+    background-color: hsl(34, 86%, 71%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#ida {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#head {
+    text-align: center;
+}
+
+.b {
+    font-size: 85%;
+    font-style: italic;
+}
+
+.d {
+    text-align: center;
+}
+
+#idb {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(204, 0, 41);
+    text-align: center;
+}
+
+#idc {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: forestgreen;
+    text-align: center;
+}
+
+.table {
+    border: 1px dotted grey;
+}
+
+.table1 {
+    border: 1px dotted grey;
+}
+
+.c {
+    color: hsl(34, 86%, 71%);
+}
