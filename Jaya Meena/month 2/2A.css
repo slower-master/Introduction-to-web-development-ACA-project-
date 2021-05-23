@@ -1,0 +1,35 @@
+body{
+    background-image: url("https://i.imgur.com/z15CCqC.jpg");
+}
+
+
+h2{
+    background-color: peru;
+}
+a{
+    color: orange;
+    font-family: monospace;
+    font-size: 15px;
+}
+.one{
+    color:red;
+    text-align: center;
+    font-size: 20px;
+}
+
+.two{
+    color:green;
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+}
+.three{
+    font-family:cursive
+    font-size: 16px;
+    font-weight: 700;
+}
+.four{
+    font-family: cu;
+    font-style: italic;
+    font-size: 16px;
+}
