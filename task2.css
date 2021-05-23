@@ -1,0 +1,80 @@
+
+body{
+ 
+    border-left: 200px solid rgb(10, 118, 160);
+    border-right: 200px solid rgb(10, 118, 160);
+    border-top: 48px solid rgb(10, 118, 160);
+    border-bottom: 48px solid rgb(10, 118, 160);
+
+}
+.whole{
+    
+    background-color:white;
+    padding: 1px;
+    border-radius: 10px;
+    border: solid rgb(10, 118, 160);
+
+}
+.box{
+    width:100%;
+display: flex;
+
+flex-direction: row;
+border-radius: 5px;
+ 
+}
+div.im{
+ width:250px;
+ text-align: center; 
+ margin-top: 30px;
+ 
+padding: 20PX;
+box-shadow:1px 1px lightgray;
+
+color: gray;
+}
+div.im img{
+    width: 100%;
+}
+
+
+.text{
+    color:rgb(26, 126, 165);
+    font-style: normal;
+    font-weight: bold;
+    text-align: center; 
+    margin-top: 30px;
+    width:250px;
+   padding: 10PX;
+   box-shadow:1px 1px lightgray;
+}
+h5{
+    color: steelblue;
+    font-style:normal
+    
+  /*  margin-top: 30px;
+    width:250px;
+   padding: 20PX;
+   box-shadow:1px 1px gray;*/
+}
+#bar:hover{
+    color: blue;
+}
+h1{
+    font-weight: 600;
+    font-size: xx-large;
+    color: rgb(29, 134, 175);
+}
+.me{
+    width: 100px;
+    height: 50px;
+    font-size:15px;
+    background-color:white;
+    color:rgb(26, 126, 165);
+    border:.5px solid rgb(176, 214, 230);
+    border-radius: 5px;
+}
+.me:hover{
+    background-color:rgb(10, 118, 160);
+    color:white;
+}
