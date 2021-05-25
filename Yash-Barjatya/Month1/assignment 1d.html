@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEARCH ENGINE</title>
+    <link rel="StyleSheet" href="CSS/search with style.css">
+</head>
+
+<body>
+    <label for id="Reddit">
+        <h1>Search Reddit</h1>
+    </label>
+    <form action="https://www.reddit.com/search" class="searchform" method="get" name="searchform" target="_blank">
+        <input name="sitesearch" type="hidden" value="reddit.com">
+        <input autocomplete="on" class="form-control search" name="q" placeholder="Search in reddit.com"
+            required="required" type="text">
+        <button class="button" type="submit">Search Reddit</button>
+    </form>
+    <br><br>
+    <label for id="Google">
+        <h1>Search Google</h1>
+    </label>
+    <form action="https://www.google.com/search">
+        <input name="q" placeholder="Search in google.com">
+        <button class="button" type="submit">Search Google</button>
+    </form>
+    <br><br>
+    <label for id="Youtube">
+        <h1>Search Youtube</h1>
+    </label>
+    <form action="https://www.youtube.com/search" class="searchform" method="get" name="searchform" target="_blank">
+        <input name="sitesearch" type="hidden" value="youtube.com">
+        <input autocomplete="on" class="form-control search" name="q" placeholder="Search in youtube.com"
+            required="required" type="text">
+        <button class="button" type="submit">Search Youtube</button>
+    </form>
+</body>
+
+</html>

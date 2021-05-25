@@ -1,0 +1,5 @@
+body{background-image: url("https://i.imgur.com/z15CCqC.jpg");}
+h1{background-color:goldenrod;}
+table, th, td {
+    border: 1px solid black;
+  }
