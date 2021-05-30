@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action ="http://www.google.com/search? " id="google ">
+    <label for="one "> search google </label>
+<input type="text " id="one" name="q">
+<button type="submit " id ="google"> google search </button>
+</form>
+<br><br>
+
+
+<label for="Blai">Search Reddit </label><br>
+<input type="text" id="Blai"><button onclick="search()">Search Reddit</button>
+<script>
+    function search() {
+        var Blah = document.getElementById("Blai").value;
+        location.replace("https://www.reddit.com/wiki/search?q=" + Blah + "");
+    }
+</script>
+<br><br>
+
+
+
+<label for="Blaj">Search Youtube </label><br>
+<input type="text" id="Blaj"><button onclick="search()">Search Youtube</button>
+<script>
+    function search() {
+        var Blaj = document.getElementById("Blaj").value;
+        location.replace("https://www.youtube.com/?q=" + Blaj + "");
+    }
+</script>
+
+
+</body>
+</html>

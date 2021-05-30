@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(86, 145, 255);
+    text-align: center;
+}
+
+.table {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2%;
+    border-spacing: 9em 2em;
+    width: 30%;
+    margin-top: 5%;
+}
+
+.tr1 {
+    border: white;
+    font-size: 125%;
+    color: grey;
+    font-family: sans-serif;
+}
+
+.tr2 {
+    border: white;
+    color: rgb(86, 145, 255);
+    font-family: sans-serif;
+}
+
+.tr3 {
+    border: white;
+    color: rgb(86, 145, 255);
+    font-size: 200%;
+    font-family: sans-serif;
+}
+
+button {
+    font-size: 100%;
+    background-color: white;
+    border-color: rgb(86, 145, 255);
+    border-width: 0.3px;
+    color: rgb(86, 145, 255);
+    border-width: 20;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    border-radius: 10%;
+}
+
+button:hover {
+    background-color: rgb(86, 145, 255);
+    color: white;
+}

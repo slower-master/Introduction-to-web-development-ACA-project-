@@ -1,0 +1,61 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-image: url(https://i.imgur.com/z15CCqC.jpg);
+}
+h1{
+    background-color:rgb(255,195,117);
+    text-align: center;
+}
+h3:nth-of-type(1){
+    text-align: center;
+    font-style: italic;
+    font-weight: 900;
+}
+div{
+    text-align: center;
+    font-weight: 200;
+}
+table{
+    border: 1px dotted rgb(155,151,142);
+}
+th{
+    border: 1px dotted rgb(155,151,142);
+}
+td{
+    border: 1px dotted rgb(155,151,142);
+}
+tr{
+    white-space: nowrap;
+}
+td:nth-of-type(2){
+    font-style: italic;
+    font-size: small;
+}
+td:nth-of-type(1){
+    font-weight: 150;
+}
+th:first-of-type{
+    color: rgb(254,13,1);
+}
+th:last-of-type{
+    color: rgb(6,129,5);
+}
+a{
+    color: rgb(236,173,91);
+    letter-spacing: 1px;
+    font-weight: 200;
+}
+#staring{
+    font-style: italic;
+    font-size: small;
+}
+img{
+    width: 200px;
+    height: auto;
+}
+h3:last-of-type{
+    text-indent: 100px;
+    font-style: italic;
+}

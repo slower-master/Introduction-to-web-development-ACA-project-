@@ -1,0 +1,77 @@
+*
+{
+    padding: 0;
+    margin:0;
+}
+.bstyle
+{
+    background-image:url(https://i.imgur.com/z15CCqC.jpg) ;
+    background-position: center;
+   background-size: cover;
+    position: relative;
+  width: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+#head
+{
+    background-color: sandybrown;
+    text-align: center;
+    margin: 15px 4px 0 4px;
+}
+h2{
+    text-align: center;
+    padding: 20px;
+}
+p{
+    margin: 20px;
+    text-align: center;
+    font-weight: bold;
+    opacity: 0.6;
+    
+}
+table,th,td {
+    border: 3px solid black;
+    border-collapse: collapse;
+    border-color: silver;
+}
+#a1
+{
+    color: black;
+    
+    font-weight: bold;
+}
+#a2
+{
+    font-family:unset;
+}
+#b
+{
+    margin: 30px 0 0 0;
+}
+ol p{opacity: 0.6;
+    text-align: left;
+    margin: 20px 0 15px 2px;
+    font-family: fantasy;
+    
+}
+ ul{
+    color: black;
+   
+}
+img{
+ height: 100px;
+ width:150px;
+ margin: 0 0 20px 0;
+}
+p2
+{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 45px;
+  margin: 30px 0 0 0;
+  font-size: 26px;
+  
+}
+a{
+    color:orange;
+}

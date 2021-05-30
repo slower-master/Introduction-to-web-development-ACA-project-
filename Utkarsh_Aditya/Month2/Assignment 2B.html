@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        * {
+            font-family: sans-serif;
+        }
+
+        .flex-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 550px;
+
+        }
+
+        .column {
+            float: left;
+            width: 33.33%;
+            text-align: center;
+            padding-top: 20px;
+
+        }
+
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        div {
+            color: #0074D9;
+            margin-top: 20px;
+            border-bottom: black;
+            border-width: 2px;
+
+        }
+
+        h2 {
+            color: gray;
+            border-width: 5px;
+        }
+
+        h3 {
+            font-size: 175%;
+        }
+
+        button {
+            background-color: white;
+            color: #0074D9;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+            border-radius: 7px;
+            border-color: #0074D9;
+
+        }
+
+        button:hover {
+            background-color: #0074D9;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="row">
+        <div class="column">
+            <div class="flex-container">
+                <img src="https://media.discordapp.net/attachments/843014962263490600/844795531888427038/icon1.png"
+                    width="400" height="400">
+                <h2 class="a">PERSONAL</h2>
+
+                <div>CUSTOM DOMAINS</div><br>
+                <div>SLEEPS AFTER 30 MINS OF <br>INACTIVITY</div>
+                <div>
+                    <h3>FREE</h3>
+                </div>
+
+                <div><button>SIGN UP</button></div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="flex-container">
+                <img src="https://media.discordapp.net/attachments/843014962263490600/844795536610951188/icon2.png"
+                    width="400" heigth="400">
+                <h2>SMALL TEAM</h2>
+                <div>NEVER SLEEPS</div><br>
+                <div>MULTIPLE WORKERS FOR MORE<br> POWERFUL APPS</div>
+                <div>
+                    <h3>$150</h3>
+                </div>
+                <div><button>FREE TRIAL</button></div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="flex-container">
+                <img src="https://media.discordapp.net/attachments/843014962263490600/844795541131886602/icon3.png"
+                    width="400" heigth="400">
+                <h2>ENTERPRISE</h2>
+                <div>DEDICATED</div><br>
+                <div>SIMPLE HORIZONTAL<br> SCALABILITY</div>
+                <div>
+                    <h3>$400</h3>
+                </div>
+                <div><button>FREE TRIAL</button></div>
+            </div>
+        </div>
+</body>
+
+</html>
