@@ -12,7 +12,12 @@ body
     border-radius: 10px;
     width: 35%;
     border-spacing: 5mm;
-    padding: 7mm;
+}
+table,tr,td{
+    border-right: 2px solid whitesmoke;
+    padding-left: 8mm;
+    padding-right: 8mm;
+    border-collapse: collapse;
 }
 
 .row1
@@ -20,23 +25,29 @@ body
     font-size: 120%;
     font-family: Arial, Helvetica, sans-serif;
     color: #808080;
+    padding-top: 4mm;
+    padding-bottom: 4mm;
 }
 
 .row2
 {
     font-size: 80%;
-    font-family: Arial, Helvetica, sans-serif;
-    border-top: 1px outset lightgray;
-    padding-top: 3mm;    
+    font-family: Arial, Helvetica, sans-serif;   
     color: #56b0ff;
 }
 .row3
 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    border-top: 1px outset lightgray;
-    padding-top: 3mm;
+    padding-top: 4mm;
+    padding-bottom: 4mm;
     color: #56b0ff;
     font-size: 200%;
+}
+.row4
+{
+    border:0px;
+    padding-top: 2mm;
+    padding-bottom: 2mm;
 }
 button
 {
