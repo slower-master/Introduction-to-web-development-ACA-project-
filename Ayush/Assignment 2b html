@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayush 2.0</title>
+    <link rel="stylesheet" href="webpage2.css">
+</head>
+
+<body>
+    <section>
+        <div class="left">
+            <img id="img1" src="https://cdn.discordapp.com/attachments/843014962263490600/844795531888427038/icon1.png"
+                alt="">
+            <h2 class="head">PERSONAL</h2>
+            <p class="content1">Custom domain</p>
+            <p class="content2">sleeps after 30 mins of inactivity</p>
+            <p class="free">free</p>
+            <p class="button"><a href="#"> SIGN UP</a></p>
+        </div>
+        <div class="middle">
+            <img id="img1" src="https://cdn.discordapp.com/attachments/843014962263490600/844795536610951188/icon2.png"
+                alt="">
+            <h2 class="head">SMALL TEAMS</h2>
+            <p class="content1">never sleeps</p>
+            <p class="content2">multiple workers for more powerfull apps</p>
+            <p class="free">$150</p>
+            <p class="button" id="link"><a href="#"> free trial</a></p>
+        </div>
+        <div class="right">
+            <img src="https://cdn.discordapp.com/attachments/843014962263490600/844795541131886602/icon3.png" alt="">
+            <h2 class="head">ENTERPRISES</h2>
+            <p class="content1">DEDICATED</p>
+            <p class="content2">SIMPLE HORIZONTAL SCALABILITY</p>
+            <p class="free">$400</p>
+            <p class="button"><a href="#"> FREE TRIAL</a></p>
+        </div>
+    </section>
+</body>
+
+</html>
