@@ -55,7 +55,7 @@ button{
     text-align: center;
     font-weight:bold;
     font-size: 35px;
-    border-top: 0.25px solid rgb(92, 148, 253) ;
+    border-top: 1px solid rgb(92, 148, 253) ;
     border: opacity 0.7px;
     padding-top: 20px ;
     margin: 20px;
@@ -63,7 +63,7 @@ button{
     margin-right: 50px;
 }
 .f{
-    border-top: 0.25px solid rgb(92, 148, 253) ;
+    border-top: 1px solid rgb(92, 148, 253) ;
     color: rgb(79, 140, 255);
     text-transform: uppercase;
     text-justify: inter-cluster;
@@ -79,7 +79,7 @@ button{
     margin-right: 50px;
 }
 .a,.b{
-    border-right:0.25px solid rgb(92, 148, 253) ;
+    border-right: 1px solid rgb(92, 148, 253) ;
 }
 .g{
     background-color: rgb(79, 140, 255);
@@ -97,4 +97,3 @@ button:hover{
 background-color: white;
 color: rgb(79, 140, 255);
 }
-           
