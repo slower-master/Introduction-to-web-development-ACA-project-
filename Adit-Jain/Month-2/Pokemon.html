@@ -39,27 +39,28 @@
         </section>
 
         <script type="text/javascript">
-            var imgs = new Array(150);
-            var headers = new Array(150);
-            var divis = new Array(150);
+            var len = 898;
+            var imgs = new Array(len);
+            var headers = new Array(len);
+            var divis = new Array(len);
             var i;
             var source = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/";
 
             document.querySelector('section').classList.add('main-section');
             document.querySelector('h1').style.textAlign = "center";
 
-            for (i=0; i<150; i++){
+            for (i=0; i<len; i++){
             divis[i] = document.createElement('div');
             imgs[i] = document.createElement('img');
             headers[i] = document.createElement('h4');
             divis[i].classList.add('main-div');
             }
 
-            for (i=0; i<150; i++){
+            for (i=0; i<len; i++){
             document.querySelector('section').appendChild(divis[i]);
             }
 
-            for (i=0; i<150; i++){
+            for (i=0; i<len; i++){
             imgs[i].src = source + (i+1) + ".png";
             headers[i].innerHTML = "#" + (i+1);
             divis[i].appendChild(imgs[i]);
