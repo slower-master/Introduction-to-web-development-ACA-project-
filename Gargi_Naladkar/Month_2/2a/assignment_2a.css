@@ -1,0 +1,44 @@
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background-color: hsl(34, 68%, 70%);
+}
+body{
+    background-image: url("https://images-ext-1.discordapp.net/external/1KbDMr8d51g4PIOclp8gZNAvsxO3DUqmbW-Ygk_tJVA/https/i.imgur.com/z15CCqC.jpg");
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+div{
+    text-align: center;
+}
+p.a{
+    font-weight: 900;
+}
+table , th, td{
+    border: 1px solid black;
+}
+.b {
+  color:red;
+}
+.c {
+    color:green;
+}
+.d{
+    font-weight:600;
+}
+.e{
+    font-style: italic;
+}
+.f{
+    font-size:12px;
+    font-style: italic;
+    margin-left:40px;
+}
+a{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: hsl(34, 68%, 70%);
+}
+.g {
+    margin-left:80px;
+    font-style: italic;
+    font-weight: bold;
+}

@@ -1,0 +1,46 @@
+body{
+    
+    background-image: url(https://images-ext-1.discordapp.net/external/1KbDMr8d51g4PIOclp8gZNAvsxO3DUqmbW-Ygk_tJVA/https/i.imgur.com/z15CCqC.jpg?width=582&height=406);
+} 
+h2{
+    background-color: rgb(219, 167, 70);
+    text-align: center;
+}
+div{
+    text-indent: 30px;
+font-style: italic;
+}
+p{
+    text-align: center;
+}
+h4{
+    text-align: center;
+    font-style: italic;
+}
+a{
+    color:rgb(219, 167, 70) ;
+}
+
+img{
+    margin-left: 30px;
+}
+#k{
+    text-indent: 50px;
+    font-style: oblique;
+}
+table,th,td{
+    
+    border:1px solid black;
+}
+thead{
+    color: red;
+    text-align: center;
+    font-size:15px;
+    
+}
+.p{
+    font-style: italic;
+}
+#x{
+    color: green;
+}

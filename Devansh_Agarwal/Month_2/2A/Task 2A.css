@@ -1,0 +1,58 @@
+body{
+    font-family: Helvetica;
+    background-image: url(https://previews.123rf.com/images/ke77kz/ke77kz1701/ke77kz170100026/69863051-old-paper-background-rustic-paper-texture-for-the-design-.jpg);
+}
+div{
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+}
+#top{
+    background-color: orange;
+    font-weight: 700;
+    font-size: 30px;
+}
+#heading{
+    font-weight: 600;
+    font-size: 20px;
+}
+table{
+    border: 1px solid gray;
+}
+th{
+    border: 1px solid gray;
+    font-weight: 800;
+}
+td{
+    border: 1px solid gray;
+}
+#l{
+    color: red;
+}
+#r{
+    color: green;
+}
+.l{
+    font-weight: 600;
+}
+.r{
+    font-style: italic;
+}
+a{
+    color: orange;
+    font-family: monospace;
+    font-weight: 600;
+    font-size: 17px;
+}
+.pic{
+    margin-left: 60px;
+    font-family: candara;
+    font-style: italic;
+}
+.end{
+    font-weight: 700;
+    margin-left: 120px;
+}
+li{
+    font-family: arial;
+}
