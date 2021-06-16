@@ -1,0 +1,15 @@
+img{
+    display: inline;
+    width: 150px;
+    text-align: center;
+}
+img:hover
+{
+    transform: scale(2);
+
+}
+span {
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+}
