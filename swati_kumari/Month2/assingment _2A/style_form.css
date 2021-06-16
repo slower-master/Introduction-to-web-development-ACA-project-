@@ -1,0 +1,46 @@
+  #a-h1{
+    background-color: rgba(255, 243, 80, 0.938);
+   text-align: center ;
+  }
+  body{
+      background : url('wall.jpeg');
+     background-repeat: no-repeat;
+     background-size: 1800px,1500px;
+    }
+  #f-h2{
+      text-align: center ;
+  }
+  #b-p{
+      text-align: center;
+  }
+   table {
+width: 600px;
+   }
+   table,th,td {
+       border: 1px solid rgb(167, 157, 157);
+      border-collapse: collapse;
+    
+     }
+    #a-td,#b-td,#c-td{
+      font-style:italic ;    
+    }
+    ol{
+     font-size: 20px;   
+     padding-left: 50px;
+    
+    }
+    ul{
+        padding-left: 30px;
+    }
+    ul li a{
+        color: rgb(232,182,100);
+    }
+    span{
+        font-size: 16px;
+      font-style:italic;
+    }
+    #op{
+    font-style: oblique;
+    padding-right: 50px;
+    margin-left: 80px;
+   }

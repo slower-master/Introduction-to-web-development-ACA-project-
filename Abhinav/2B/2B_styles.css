@@ -5,29 +5,27 @@ body {
     background-color: rgb(62, 178, 255);
     margin: 150px;
     padding: 50px;
-    align-items: center;
-    box-sizing: border-box;
+    display:inline-flex;
+    flex-wrap: wrap;
+    justify-content:center;
 }
 
 .content {
-    display:inline-block;
-    align-items: center;
     background-color: white;
-    width: 1550px;
-    height: 750px;
     border-radius: 15px;
-    
+    display:inline-flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
 }
 
 .division {
-    display:inline-block;
-    box-sizing: border-box;
     margin: 30px;
     max-width: 1100px;
 }
 
 .division-image {
     padding: 20px;
+    
 }
 
 .division-title {

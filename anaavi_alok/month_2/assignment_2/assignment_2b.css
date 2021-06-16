@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Khula:wght@700&display=swap');
+
+
+
+body{
+    background-color:rgb(8%,78%,94%);
+    font-family:'Khula',sanas-serif;
+}
+img{
+   width:200px;
+   height:140px;
+}
+
+section{
+    width: 75%;
+    height: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    display:flex;
+     border-radius: 10px;
+}
+section div{
+    width: 33%;
+    border-right: 1px solid rgba(96, 169, 255, 0.4);
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+}
+section div:last-child
+{
+    border: none;
+}
+h1{
+    
+    font-size: 23px;
+    color: rgba(0, 0, 0, 0.5)
+}
+h2{
+    border-top: 1px solid rgba(96, 169, 255, 0.3);
+    padding: 20px;
+    font-size: 16px;
+    color: rgb(96, 169, 255);
+}
+h3{
+    margin-top: 15px;
+    margin-bottom: -4px;
+    font-size: 25px;
+    color:rgb(8%,78%,94%);
+}
+
+.button {
+    background-color:white;
+    border-color: rgb(8%,78%,94%);
+    color:rgb(8%,78%,94%) ;
+    padding: 15px 32px;
+    border-radius:6px;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family:'Khula';
+  }
+  .button1{
+    background-color:rgb(8%,78%,94%);
+    border-color:white;
+    color:white ;
+    padding: 15px 32px;
+    border-radius:6px;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family:'Khula';
+  }
