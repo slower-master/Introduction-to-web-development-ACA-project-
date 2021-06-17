@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon</title>
+    <style>
+        div{
+            display: inline-block;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1><strong>Look at my pokemon!</strong></h1>
+    <class id="photos">
+    </class>
+    <script>
+        for (var i = 1; i < 152; i++) 
+        {   
+            var node = document.createElement("div");
+            var ind = document.createElement("div");
+            var im = document.createElement("img");
+            im.src = 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/' + i + '.png';
+            var textnode = document.createTextNode("#"+i);
+            node.appendChild(im);
+            ind.appendChild(textnode);
+            document.getElementById("photos").appendChild(node);
+            document.getElementById("photos").appendChild(ind);
+        }      
+    </script>
+</body>
+</html>
