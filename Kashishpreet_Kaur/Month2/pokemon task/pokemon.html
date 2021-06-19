@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1.0">
+    <title>Pokemon</title>
+    <style>
+        span {
+            text-align: center;
+            position: relative;
+            right: 60px
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Look at my pokemon!</h1>
+    <p id="image"></p>
+</body>
+<script>
+    for (let i = 1; i < 152; i++) {
+        var y = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/"
+        var img = document.createElement('img');
+        img.src = y + i + '.png';
+        let k = document.getElementById("image");
+        k.append(img);
+        var number = document.createElement('span');
+        number.innerHTML = "#" + i;
+        k.append(number);
+    }
+</script>
+
+</html>
