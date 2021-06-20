@@ -1,0 +1,31 @@
+* {
+    size: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:black;
+}
+
+#pokemon h1
+{
+    font-size: 3em;
+}
+
+#pokemon-element
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 1em;
+}
+
+#pokemon-ele h2
+{
+    height: 1em;
+    width: 1em;
+    -ms-flex-align: center;
+}
+
+#pokemon-ele img
+{
+    height: 5em;
+    width: 5em;
+}
