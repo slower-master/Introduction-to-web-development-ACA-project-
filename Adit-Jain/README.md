@@ -14,4 +14,4 @@ Roll-No: 200038
 <br>Learnt various CSS properties of elements, flexboxes, transitions, pseudo-elements of a class, their stylizations with and without using classes and ids, etc.
 
 <b>5-6th Week work done:</b>
-<br>Learnt JavaScript like querySelector, how to change style, for (and for-in, for-of) loops, conditional statements, etc.
+<br>Learnt JavaScript like querySelector, how to change style, for (and for-in, for-of) loops, conditional statements, etc. Also, leart about basics of back-end development like NodeJS, Express, etc.
