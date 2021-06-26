@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Like Counter</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        body{
+            background: rgb(78, 78, 233);
+        }
+        .main-content{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        h1{
+            text-align: center;
+            font-size: 40px;
+            color: white;
+            border-bottom: 2px solid white;
+        }
+        .counter {
+            display: flex;
+        }
+        .counter div{
+            padding: 30px;
+            position: relative;
+            /* border: 2px solid red; */
+        }
+        .counter div span{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 30px;
+            /* text-decoration: underline; */
+            /* padding: 20px; */
+        }
+        .fa{
+            cursor: pointer;
+            font-size: 60px;
+        }
+        .fa:hover{
+            color: rgba(0, 0, 0, 0.7);
+        }
+        .fa-thumbs-up:hover{
+            transform: translateY(-4px);
+        }
+        .fa-thumbs-down:hover{
+            transform: translateY(4px);
+        }
+    </style>
+</head>
+<body>
+    <div class="main-content">
+        <h1>Do give a like ;)</h1>
+        <div class="counter">
+            <div><i class="fa fa-thumbs-up" onclick="like_function()"></i></div>
+            <div><span id="like">0</span></div>
+            <div><i class="fa fa-thumbs-down" onclick="unlike_function()"></i></div>
+            <div><span id="unlike">0</span></div>
+        </div>
+    </div>
+    <script>
+        var like = document.getElementById("like");
+        var unlike = document.getElementById("unlike");
+
+        var like_counter = 1;
+        var unlike_counter = 1;
+
+        function like_function(){
+            like.innerHTML = like_counter.toString();
+            if (like_counter >= 1000){
+                like.innerHTML = ((like_counter/1000).toFixed(2)).toString() + 'K';
+            }
+            like_counter++;
+            console.log("Like incremented to " + like.innerHTML)
+            return like_counter;
+        }
+        function unlike_function(){
+            unlike.innerHTML = unlike_counter.toString();
+            if (unlike_counter >= 1000){
+                unlike.innerHTML = ((unlike_counter/1000).toFixed(2)).toString() + 'K';
+            }
+            unlike_counter++;
+            console.log("Unlike incremented to " + unlike.innerHTML)
+            return unlike_counter;
+        }
+    </script>
+</body>
+</html>
