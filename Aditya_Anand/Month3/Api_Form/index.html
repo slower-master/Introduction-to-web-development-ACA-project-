@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel="stylesheet">
+    <title>Get Post Request</title>
+    <style>
+        body {
+            text-align: center;
+        }
+
+        .column {
+            display: inline-block;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Get &amp; Post Request Form</h1>
+    <!-- <label for="type">Select one of the following:</label>
+    <br>
+    <input name="but" type="radio" id="getbut">Get
+    <input name="but" type="radio" id="postbut">Post
+    <br>
+    <br> -->
+    <h2>Get Request:</h2>
+    <form id ="get" method="GET" action="http://localhost:3000/post">
+        <div class="column">
+            <label for="username">Username:</label>
+        </div>
+        <div class="column">
+            <input class="box" type="text" name="Username" placeholder="Enter your Username" />
+        </div>
+        <br>
+        <br>
+        <div class="column">
+            <label for="comment">Comment:</label>
+        </div>
+        <div class="column">
+            <input class="box" type="text" name="Comment" placeholder="Enter your Comment" />
+        </div>
+        <br>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+    <br>
+    <h2>Post Request:</h2>
+    <form id="post" method="POST" action="http://localhost:3000/post">
+        <div class="column">
+            <label for="username">Username:</label>
+        </div>
+        <div class="column">
+            <input class="box" type="text" name="Username" placeholder="Enter your Username" />
+        </div>
+        <br>
+        <br>
+        <div class="column">
+            <label for="comment">Comment:</label>
+        </div>
+        <div class="column">
+            <input class="box" type="text" name="Comment" placeholder="Enter your Comment" />
+        </div>
+        <br>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+
+    <script src="api.js"></script>
+</body>
+
+</html>
