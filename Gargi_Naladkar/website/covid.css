@@ -1,0 +1,78 @@
+
+header ul{
+    list-style-type: none;
+    margin:0px;
+    padding:0px;
+    position: fixed;
+    
+}
+header li{
+    float: left;
+    background-color:black;
+}
+header li a,span {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color:lightcoral;
+}
+#img1{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+#img2{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    width: 300px;
+    height: 150px;
+}
+#img2:hover{
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+body{
+    background-image: url("https://i1.wp.com/www.estidia.eu/wp-content/uploads/2018/04/Savin-NY-Website-Background-Web.jpg");
+    background-attachment:fixed;
+    background-size: cover;
+    margin: 0px;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    width: 70%;
+    transform:translate(10%,8%);
+    margin-bottom: 250px;
+}
+h1{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+p{
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+ul{
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+#g{
+    display: inline-block;
+}
+#t{
+    font-weight: bolder;
+    font-size: 25px;
+    display: inline-block;
+    
+}
+#footer{
+    background-color: black;
+    padding-bottom: 0px;
+    width: 100% ;
+    margin: 0px;
+    height: 75px;
+    
+}
