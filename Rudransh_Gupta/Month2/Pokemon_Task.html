@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://db.onlinewebfonts.com/c/f4d1593471d222ddebd973210265762a?family=Pokemon" rel="stylesheet" type="text/css"/>
+    <title>Pokémon</title>
+</head>
+<style>
+    span{
+        position:relative;
+        right:60px;
+        top:10px;
+        text-align: center;
+        width:100px;
+    }
+    img{
+        height:100px;
+        width:100px;
+    }
+    img:hover{
+        transform: scale(1.8);
+        box-shadow: 5px 5px 5px 5px grey;
+    }
+    h2{
+        text-align: center;
+        font-family: "Pokemon";
+        font-size: 40px;
+    }
+</style>
+
+<body>
+    <h2>
+        Look at my Pokémon !
+    </h2>
+    <div id="image"></div>
+    <script>
+        function ImagePokeMon(t) {
+            var div = document.getElementById("image");
+            div.innerHTML = ""; 
+            for (i = 1; i <= t; i++) {
+                var image = document.createElement("img");
+                var number = document.createElement("span")
+                image.src = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/" + i + ".png";
+                number.innerHTML = "#"+i;
+                div.appendChild(image);
+                div.appendChild(number);
+
+            }
+        }
+        window.onload = function () {
+            ImagePokeMon(151);
+        };
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <style>
+        body 
+        {
+            font-family: 'Roboto';
+            font-size: 22px;
+        }
+        button
+        {
+            width:50px;
+            height:50px;
+            border: hidden;
+            background-color: white;
+        }
+    </style>
+    <script>
+        var c = 0;
+        function changeImage() {
+                var image = document.getElementById('mi');
+                if (image.src.match("https://cdn3.iconfinder.com/data/icons/linecons-free-vector-icons-pack/32/like-512.png")) {
+                    image.src = "https://toppng.com/uploads/preview/thumb-up-arrow-vote-like-comments-youtube-like-button-11562976859ixw4o7tcxk.png";
+                }
+                else {
+                    image.src = "https://cdn3.iconfinder.com/data/icons/linecons-free-vector-icons-pack/32/like-512.png";
+                }
+            }
+    </script>
+</head>
+
+<body>
+    <button type="button" onclick="document.getElementById('a').innerHTML =(c=1-c);changeImage()"><img id="mi" src="https://cdn3.iconfinder.com/data/icons/linecons-free-vector-icons-pack/32/like-512.png" width="50px" height="50px"></button>
+    <h1 id='a'>0</h1>
+</body>
+
+</html>

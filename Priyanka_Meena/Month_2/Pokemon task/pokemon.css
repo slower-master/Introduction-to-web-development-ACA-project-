@@ -1,0 +1,36 @@
+h1{
+    color: indigo;
+    font-family: initial;
+    font-size:50px;
+    
+    
+}
+body{
+    color: deepskyblue;
+    background-color: gold;
+    font-size: 20px;
+}
+img {
+    display: inline;
+    width: 140px;
+    text-align: center;
+
+}
+
+doc{
+    display: inline-block;
+    width: 140px;
+    text-align: center;
+}
+
+
+    
+
+
+
+
+
+
+
+
+

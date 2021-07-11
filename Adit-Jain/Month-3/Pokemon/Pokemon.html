@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pokemon</title>
+        <style>
+            *{
+                padding: 0px;
+                margin: 0px;
+                box-sizing: border-box;
+            }
+
+            .main-section{
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+            .main-div{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+            img{
+                transition: 0.2s;
+            }
+            img:hover{
+                transform: scale(1.5, 1.5);
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Look at my Pokemons!</h1><br>
+        <section>
+        </section>
+
+        <script type="text/javascript">
+            var len = 898;
+            var imgs = new Array(len);
+            var headers = new Array(len);
+            var divis = new Array(len);
+            var i;
+            var source = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/";
+
+            document.querySelector('section').classList.add('main-section');
+            document.querySelector('h1').style.textAlign = "center";
+
+            for (i=0; i<len; i++){
+            divis[i] = document.createElement('div');
+            imgs[i] = document.createElement('img');
+            headers[i] = document.createElement('h4');
+            divis[i].classList.add('main-div');
+            }
+
+            for (i=0; i<len; i++){
+            document.querySelector('section').appendChild(divis[i]);
+            }
+
+            for (i=0; i<len; i++){
+            imgs[i].src = source + (i+1) + ".png";
+            headers[i].innerHTML = "#" + (i+1);
+            divis[i].appendChild(imgs[i]);
+            divis[i].appendChild(headers[i]);
+            }
+        </script>
+    </body>
+</html>

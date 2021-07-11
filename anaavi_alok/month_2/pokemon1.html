@@ -1,0 +1,25 @@
+!DOCTYPE html>
+<html>
+    <head>
+        <title>pokemon</title>
+        <link rel ="stylesheet" type="text/css"/>
+    </head>
+    <style>
+     
+    </style>
+    <body>
+        <h1>
+           <centre>Look at my pokemon collection!</centre>
+        </h1>
+        <script>
+        for(var i=1;i<152;i+10)
+       {    
+         { var img  = document.createElement('img');
+           img.src = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/" + i + ".png";
+           document.querySelector('body').appendChild(img);
+        }
+       }
+        
+     </script>
+     </body>
+    </html>

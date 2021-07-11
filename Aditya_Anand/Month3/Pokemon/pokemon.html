@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Pokemon</title>
+    <style>
+        span{
+            text-align: center;
+            position: relative;
+            right: 60px
+        }
+        img:hover{
+            transform: scale(2.0);
+            box-shadow: 5px 5px 5px 10px grey;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Look at my Pokemon!</h1>
+    <p id="pokemon"></p>
+</body>
+
+<script>
+    function p(){
+        for(let i =1; i<151; i++){
+            var t = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/";
+            var img = document.createElement('img');
+            img.src = t+i+'.png';
+            let k = document.getElementById("pokemon")
+            k.append(img);
+            var num = document.createElement('span');
+            num.innerHTML = "#" + i;
+            k.append(num);
+        }
+    }
+    p();
+</script>
+</html>

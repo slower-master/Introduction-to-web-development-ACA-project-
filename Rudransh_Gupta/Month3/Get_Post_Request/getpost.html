@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel="stylesheet">
+    <title>Get Post</title>
+</head>
+<style>
+    * {
+        text-align: center;
+    }
+
+    .container {
+        width: 450px;
+        height: 680px;
+        margin: auto;
+        background-color: #08e1ae;
+        background-image: linear-gradient(315deg, #08e1ae 0%, #98de5b 74%);
+        color: rgb(122, 122, 233);
+        font-family: 'Carter One', cursive;
+    }
+
+    h1 {
+        color: rgb(0, 71, 71);
+    }
+
+    h1:hover {
+        background-color: #036952;
+        background-image: linear-gradient(315deg, #036952 0%, #618b3b 74%);
+    }
+
+    h2:hover {
+        background-color: #036952;
+        background-image: linear-gradient(315deg, #036952 0%, #618b3b 74%);
+    }
+
+    button {
+        font-weight:bold;
+        margin-top: 15px;
+        color: rgb(122, 122, 233);
+        background-color: transparent;
+        border-color: white;
+        border-radius: 5px;
+    }
+
+    button:hover {
+        background-color: #036952;
+        background-image: linear-gradient(315deg, #036952 0%, #618b3b 74%);
+    }
+</style>
+
+<body>
+    <div class="container">
+        <h1>GET</h1>
+        <form method="GET" action="http://localhost:3000/post">
+            <label for="get">
+                <h2>Username</h2>
+            </label>
+            <input type="text" name="Username" placeholder="Username">
+            <label for="get">
+                <h2>Comment</h2>
+            </label>
+            <input type="text" name="Comment" placeholder="Comment">
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+        <br><br>
+
+        <h1>POST</h1>
+        <form method="POST" action="http://localhost:3000/post">
+            <label for="post">
+                <h2>Username</h2>
+            </label>
+            <input type="text" name="Username" placeholder="Username">
+            <label for="post">
+                <h2>Comment</h2>
+            </label>
+            <input type="text" name="Comment" placeholder="Comment">
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
