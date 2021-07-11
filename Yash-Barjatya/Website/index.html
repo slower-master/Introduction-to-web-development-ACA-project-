@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WTC-FINALS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+
+<body>
+    <!-- <img
+        src="https://cdn.insidesport.co/wp-content/uploads/2021/05/27171454/2021-05-26T221232Z_1135569766_UP1EH5Q1POVIS_RTRMADP_3_SOCCER-EUROPA-VIL-MUN-REPORT-696x464-2.gif">
+   -->
+    <section>
+
+        <div class="container2">
+            <img id="image2"
+                src="data:image/png;base64,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">
+            <div class="top-left">INDIA</div>
+        </div>
+
+        <div class="container2"><img id="image3"
+                src="data:image/png;base64,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">
+            <div class="top-right">NEW ZEALAND</div>
+        </div>
+
+        </div class="container1">
+        <!-- <img id="image1"
+           src="https://etvbharatimages.akamaized.net/etvbharat/prod-images/768-512-10652858-1020-10652858-1613483017503.jpg">
+        </div class="container1">-->
+        <img id="image1" src="https://app-staging.cricwizz.com/images/post/Wo_1622287757.jpg">
+        <div class="centered">VOTE FOR YOUR TEAM NOW!!</div>
+        </div>
+        <button class="like_Ind">
+            <span id="like_icon1"><i class="IND far fa-thumbs-up"></i></span>
+            <span id="like_count1">0</span> IND
+        </button>
+        <a href="#">INDIA OR K.WILLIAMSON??</a>
+        <button class="like_NZ">
+            <span id="like_icon2"><i class="NZ far fa-thumbs-up"></i></span>
+            <span id="like_count2">0</span> NZ
+        </button>
+        <script src="javascript.js"></script>
+
+        <div class="container">
+            <div class="box">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnNJrQkjd04rz7Bnlf-F4-fQ53knmDoKQCsw&usqp=CAU"
+                    height="270px" width="370px">
+                <div class="icon"><i class="material-icons">live_tv</i>
+                </div>
+                <div class="content">
+                    <!--<h2>LIVE</h2>
+                    <h3>Watch live only on Star Sports Network</h3>-->
+                    <a href="https://www.hotstar.com/in/sports/cricket/icc-world-test-championship/india-vs-new-zealand-m703227/live-streaming/1540007149"
+                        target="_blank">WATCH
+                        LIVE</a>
+                </div>
+
+            </div>
+            <div class="box">
+
+                <div class="icon"><i class="material-icons"> timer</i>
+                </div>
+                <div class="content">
+
+                    <h3 id="timer"></h3>
+                    <br><br>
+                    <a href="https://www.google.com/search?q=india+vs+new+zealand&rlz=1C1CHBF_enIN927IN927&oq=in&aqs=chrome.0.69i59j69i57j69i59j0i131i433l2j46i433j46i199i291i433j0i131i433l2j46i199i291i433.1390689j0j15&sourceid=chrome&ie=UTF-8#sie=m;/g/11r2lg5fpr;5;/m/021q23;dt;fp;1;;"
+                        target="_blank">READ
+                        MORE</a>
+                </div>
+
+            </div>
+
+            <div class="box">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS31F0LIjm7bkJhE53tYLLf5gO2z4mOtMsZgQ&usqp=CAU"
+                    height="270px" width="370px">
+                <div class="icon"><span class="material-icons">location_on</span>
+                </div>
+                <div class="content">
+                    <h2> Ageas Bowl </h2>
+                    <h3> Southampton, United Kingdom</h3>
+                </div>
+            </div>
+
+        </div>
+    </section>
+</body>
+
+</html>
