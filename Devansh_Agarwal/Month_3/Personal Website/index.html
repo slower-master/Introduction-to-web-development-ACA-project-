@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Into Space!</title>
+    <link rel="stylesheet" href="space.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body>
+    <div class="box">
+        <div id="head">earth</div>
+        <div class="imgbox">
+             <img id="planet" src="https://nineplanets.org/wp-content/uploads/2019/09/earth.png" alt=""> 
+        </div>
+        <center>
+        <table>
+            <tr >
+                <th rowspan="2">Planet No.</th>
+                <th rowspan="2">Diameter<br>(km)</th>
+                <th colspan="2">Time Taken for</th>
+            </tr>
+            <tr>
+                <td>1 Spin on Axis</td>
+                <td>1 Orbit around Sun</td>
+            </tr>
+            <tr id="info">
+                <td id="num">3</td>
+                <td id="dia">12756</td>
+                <td id="spin">1 day</td>
+                <td id="orbit">365 days</td>
+            </tr>
+        </table>
+        
+    </center>
+    <br>
+    <button onclick="prev()">
+        <span id="left" class="material-icons">chevron_left</span>
+    </button>
+    <button onclick="next()">
+        <span id="right" class="material-icons">chevron_right</span>
+    </button>
+    </div>
+    
+    <script src="./space.js"></script>
+</body>
+</html>

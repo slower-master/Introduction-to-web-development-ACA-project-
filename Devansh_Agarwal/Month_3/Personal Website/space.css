@@ -1,0 +1,47 @@
+@font-face {
+  font-family: myfont;
+  src: url(https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Source+Code+Pro:wght@200&display=swap);
+}
+body {
+  text-align: center;
+  color: white;
+  background-image: url(https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3RhcnJ5JTIwc2t5fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80);
+}
+div.box {
+  margin-top: 20px;
+  display: inline-block;
+  width: 800px;
+  height: 600px;
+  background-color: rgba(29, 41, 81, 0.6);
+  border-radius: 18px;
+  font-family: "Caveat", cursive;
+}
+img {
+  width: 440px;
+  height: 330px;
+}
+table,
+th,
+td {
+  border: 1px solid white;
+  border-collapse: collapse;
+  padding: 15px;
+}
+button {
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 1px solid black;
+}
+button:hover {
+  border-radius: 5px;
+  background-color: white;
+  border: 1px solid black;
+}
+div#head {
+  font-size: 30px;
+  color: yellow;
+  text-transform: uppercase;
+}
+#info {
+  color: orange;
+}
