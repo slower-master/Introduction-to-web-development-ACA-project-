@@ -1,0 +1,246 @@
+body{
+    
+    background-color: black;
+}
+
+#image1{
+    margin-left: 300px;
+    margin-right: 350px;
+    margin-top: -200px;
+    height: 450px;
+    width: 850px;
+
+}
+#image2
+{
+    margin-top: 40px;
+    height:100px ;
+    margin-left: 50px;
+
+}
+#image3
+{
+    margin-top: -1400px;
+    margin-bottom:6.5%;
+    margin-left: 1260px;
+    height:100px ;
+    width:150px;
+}
+.centered {
+   
+    margin-bottom:30px;
+    margin-left:350px;
+    color:whitesmoke;
+    /*color:darkcyan;*/
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: sans-serif;
+   
+  }
+  .top-left{
+      margin-top: 30px;
+      margin-left: 60px;
+      color:whitesmoke;
+      /*color:darkcyan;*/
+      
+       font-size: 40px;
+       font-weight: bolder;
+      
+       font-family: sans-serif;
+
+  }
+  .top-right{
+      margin-top: -70px;
+      margin-left: 1180px;
+      color:whitesmoke;
+      /*color:darkcyan;*/
+       
+       font-size: 40px;
+       font-weight: bolder;
+       font-family: sans-serif;
+
+  }
+  .like_Ind{
+ 
+    /*margin-left: 60px;*/
+    margin-bottom:30px;
+    margin-left:470px;
+    padding:10px 15px;
+    background:cornflowerblue;
+    font-family: 'Open Sans',sans-serif;
+    border: 2px solid darkblue;
+    border-radius: 5px;
+    color: darkblue;
+    font-size: larger;
+    font-weight: bolder;
+}
+.like_NZ{
+  margin-bottom:30px;
+    margin-left:0px;
+    padding:10px 15px;
+    background:black;
+    font-family: 'Open Sans',sans-serif;
+    border: 2px solid grey;
+    border-radius: 5px;
+    color: grey;
+    font-size: larger;
+    font-weight: bolder;
+}
+a{
+    background:darkcyan;
+    background:whitesmoke;
+    padding:10px 15px;
+    border: 2px solid rgb(11, 224, 224);
+    border-radius: 5px;
+    font-family: 'Open Sans',sans-serif;
+    color: black;
+    font-size: larger;
+    font-weight: 700;
+    width: 300px; 
+}
+.container{
+    position:relative;
+    width:1200px;
+    height:300px;
+    margin:20px auto;
+    background: #000;
+    font-family: sans-serif;
+
+}
+.container .box{
+    position: relative;
+    width : calc(400px - 30px);
+    height : calc(300px - 30px);
+    /*width : 370px ;
+    height : 270px;*/
+    
+    background: #000;
+    float:left;/* if not written it will print the box vertical,comment and find out yourself*/
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+
+}
+
+.container .box .icon{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background: #f00;
+    transition: 0.5s;
+    z-index: 1;
+}
+.container .box:hover .icon{
+    top: 20px;
+    left: 145px ;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.container .box .icon .material-icons{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    font-size: 80px;
+    transition: 0.5s;
+    color: #fff;
+}
+.container .box:hover .icon .material-icons   {
+    font-size: 50px;
+}
+.container .box .content{
+    position: absolute;
+    top:100%;
+    /*left: 24px ;
+    /*height: (100% -100px);*/  
+    height: 170px;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    opacity: 0;
+}
+.container .box:hover .content{
+    top:100px;
+    opacity: 1;
+}
+.container .box .content h2{
+    margin: 0 0 10 px;
+    padding: 0;
+    color: #000;  
+}
+.container .box .content h3{
+    margin: 0;
+    padding: 0;
+    color: #000; 
+}
+.container .box:nth-child(2) .content
+{
+    left:55px;
+}
+.container .box:nth-child(3) .content
+{
+   left: 30px;
+}
+.container .box:nth-child(1) .icon
+{
+    background:rgb(25, 101, 163);
+  
+}
+
+.container .box:nth-child(2)
+{
+    background: grey;
+}
+.container .box:nth-child(2) .icon
+{
+  
+  background: rgb(54, 54, 54);
+}
+
+.container .box:nth-child(3) .icon
+{
+  background:rgb(25, 101, 163);
+}
+.container .box .content a
+{
+    position: absolute;
+    bottom:0;
+    left:10%;
+    width: 150px;
+    height: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 15px 35px rgba(0,0,0,1);
+    border-radius: 30px;
+    color: black;
+    z-index: 1;
+    font-weight: 400px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.5s;
+    backdrop-filter: blur(30px);
+}
+.container .box .content:hover a{
+    letter-spacing: 3px;
+}
+.container .box .content a::before{
+    content:'';
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background:linear-gradient(to left,rgba(255,255,255,0.15),transparent) ;
+    transform: skewX(45deg) translateX(0);
+}
+.container .box .content:hover a::before{
+transform: skewX(45deg) translateX(200%);
+}

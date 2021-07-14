@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../assets/style.css"/>
+    </head>
+    <body>
+        <div id = "pokemon">
+            <h1>Gotta Catch em All!</h1>
+            <div id = "pokemon-element"></div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+    <script>
+        function poke_append(n, str)
+        {
+            var head = document.createElement('H2');    //  H2 Object
+            var text = document.createTextNode("#" + n);    //Text it contains
+            head.appendChild(text);
+
+            var imag = document.createElement('img');   //Image
+            imag.src = str;
+
+            var node = document.createElement("pokemon-element");   //Complete Object to be appended
+            node.appendChild(head);
+            node.appendChild(imag);
+            node.id = "pokemon-ele";
+            document.getElementById("pokemon-element").appendChild(node);
+        }
+
+        var str = 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/';
+        let i = '<%= id %>';
+        var n = i.toString(10);
+        var str1 = str + n + '.png';
+        console.log(str1);
+        poke_append(n, str1);
+    </script>
+</html>

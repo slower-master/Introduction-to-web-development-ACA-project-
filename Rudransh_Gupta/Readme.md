@@ -13,3 +13,5 @@ Completed CSS basics, Began understanding JavaScript, Finished task 2(A), 2(B) (
 Learnt Javascript basics, Published a site implementing HTML, CSS, JS and did the Pokemon task
 # Ninth - Tenth Week:
 Started getting into the BackEnd World, completed Get-Post Task
+# ELeventh - Twelfth Week:
+Learnt more about Nodejs and Express, completed Get_Pokemon_Task

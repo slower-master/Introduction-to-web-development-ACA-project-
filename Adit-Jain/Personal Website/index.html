@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Adit Jain &middot; HomePage</title>
+
+        <!-- <script src = "https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script> --> <!--Iss ko add karne se navbar satak rahi h..-->
+        <script src = "https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src = "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-custom navbar-mainbg sticky-top" style="width: 100%;">
+            <a class="navbar-brand navbar-logo" href="#">ADIT JAIN</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" onclick="change_icon()" id="btn">
+                <i class="fas fa-bars text-white" id="icon_name"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <div class="main-selector"><div class="left"></div><div class="right"></div></div>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#" title="home" onclick="closeFunction()"><i class="fas fa-home"></i>Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about" title="about" onclick="closeFunction()"><i class="far fa-hand-peace"></i>About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#flex" title="flex" onclick="closeFunction()"><i class="fas fa-bolt"></i>Flex</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact" title="contact" onclick="closeFunction()"><i class="far fa-address-card"></i>Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0);" onclick="" id="themeButton"><i class="fas fa-cogs"></i>Theme</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        
+        <!-- <section class="backgr">
+            <div class="arrow-right" id="mee" style="animation-delay: 0s;"></div>
+            <div class="arrow-right" id="mee" style="animation-delay: 0s;" style="margin-left: 50px;"></div>
+        </section> -->
+
+        <section class="intro" id="img_cont">
+            <div class="text-animation">
+                <h1 class="ml8">
+                    <span class="letters-container">
+                        <span class="letters letters-left">Hi</span>
+                        <span class="letters bang">!</span>
+                    </span>
+                    <span class="circle circle-dark"></span>
+                    <span class="circle circle-container" id="circle-rotate"><span class="circle circle-dark-dashed"></span></span>
+                </h1>
+                <div class="adit-here">
+                    <div class="upper-div">
+                        <p class="x" aria-label="CodePen">
+                            <span data-text="A">A</span>
+                            <span data-text="D">D</span>
+                            <span data-text="I">I</span>
+                            <span data-text="T">T</span>
+                        </p>
+                        <p class="x" aria-label="CodePen">
+                            <span data-text="H">H</span>
+                            <span data-text="E">E</span>
+                            <span data-text="R">R</span>
+                            <span data-text="E">E</span>
+                        </p>
+                    </div>
+                    <!-- <div class="down-div">
+                        <p>Click on any of the letters to see the magic happen.. ;)</p>
+                    </div> -->
+                </div>
+            </div>
+            <div class="main-content">
+                <div class="content-text">
+                    <div class="svg-img" id="abs">
+                        <div class="arrow-right" id="mee" style="animation-delay: 0s;"></div>
+                        <div class="arrow-right" id="mee" style="animation-delay: 100ms;"></div>
+                        <div class="arrow-right" id="mee" style="animation-delay: 200ms;"></div>
+                        <div class="arrow-right" id="mee" style="animation-delay: 300ms;"></div>
+                        <div class="arrow-right" id="mee" style="animation-delay: 400ms;"></div>
+                    </div>
+                    <p>
+                        <i class="fas fa-quote-left" onclick="select1()" id="icon-top"></i>
+                    </p>
+                    <div class="inside">
+                        <h1>""YOU MISS 100% OF THE SHOTS YOU DONT TAKE</h1>
+                        <h4 style="width: 60%; text-align: right;">-Wayne Gretzky"</h4>
+                        <h4 style="width: 80%; text-align: right;">-Michael Scott"</h4>
+                        <h4 style="width: 100%; text-align: right;">-Adit Jain</h4>
+                    </div>
+                    <p style="text-align: left; align-items: flex-end;"><i class="fas fa-quote-right" onclick="select2()" id="icon-bottom"></i></p>
+                </div>
+                <div class="main-img">
+                    <div class="flip-card" id="flip">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="img/dp.jpeg">
+                            </div>
+                            <div class="flip-card-back">
+                                <h1>ADIT</h1> 
+                                <p>Dumdass by profession</p>
+                                <p>Introvert by nature</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="s-about">
+            <div id="about" style="height: 0px; width: 0px; transform: translateY(-70px);">
+            </div>
+            <div class="top-div">
+                <h2>ABOUT ME</h2>
+                <h1>Adit Jain</h1>
+                <p>
+                    I qualified JEE and took admission in B.Tech Electrical Engineering in 2020. 
+                    Life seemed to change after this, exploring and learning became like a hobby for me. 
+                    Since then I tried many things but at last finally I settled on learnig web developement, 
+                    programming robots, interacting with drones and learning piano. 
+                    This website is actually all about the better side of mine.
+                </p>
+            </div>
+            <div class="bottom-div">
+                <div>
+                    <h3>My Experiences!</h3>
+                    <p style="padding-top: 20px;">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        First time I came here at IIT KANPUR , it amazed me with its beauty and greenry and till now it amazes me with something or the other. Of course,
+                        I aim to write this one day since I am yet to visit the college physically :(
+                    </p>
+                    <p>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        I am a curious person by nature! So in collaboration with my friend Sunreet Khanna (Electrical Engineering), we started an IITK Homepage.
+                        <a target="_blank" href="https://home.iitk.ac.in/~aditj20/">Homepage Link</a>
+                    </p>
+                    <p>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        There is one piece of advice I want to give to everyone especially to students "Never waste your these precious 4 years at any cost".
+                    </p>
+                </div>
+                <div>
+                    <h3>I've Got Some skills..</h3>
+                    <div>
+                        <span>Honesty:</span>
+                        <progress value="90" max="100"></progress>
+                        <span class="legend" style="left: 90%;">90%</span>
+                    </div>
+                    <div>
+                        <span>Sarcasm:</span>
+                        <progress value="66" max="100"></progress>
+                        <span class="legend" style="left: 66%;">66%</span>
+                    </div>
+                    <div>
+                        <span>Communication:</span>
+                        <progress value="85" max="100"></progress>
+                        <span class="legend" style="left: 85%;">85%</span>
+                    </div>
+                    <div>
+                        <span>Fashion:</span>
+                        <progress value="30" max="100"></progress>
+                        <span class="legend" style="left: 30%;">30%</span>
+                    </div>
+                    <div>
+                        <span>Foodie:</span>
+                        <progress value="100" max="100"></progress>
+                        <span class="legend" style="left: 100%;">100%</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="s-flex" id="flex-main">
+            <div id="flex" style="height: 0px; width: 0px; transform: translateY(-70px);"></div>
+            <h1>Some of my works:</h1>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="main-timeline">
+                        <div class="timeline">
+                            <a class="icon fa fa-globe" style="color: white;"></span>
+                            <a href="javascript:void(0);" class="timeline-content part1" id="timeline_main">
+                                <h3 class="title">Web-Development</h3>
+                                <p class="description">
+                                    In my first year at IITK, I joined the ACA project of WebDev which helped me learn HTML, CSS, JavaScript, all of which I have used in creating this webpage.
+                                </p>
+                            </a>
+                            <a href="javascript:void(0);" class="timeline-content part2" id="top1">
+                                <h3 class="title">Class 10<sup>th</sup> Boards</h3>
+                                <p class="description">
+                                    Yes, my batch was the first one in a very very long time to give class 10<sup>th</sup> boards :(. But still, I somehow managed to get a decent 97,2% in them.
+                                </p>
+                            </a>
+                        </div>
+                        <div class="timeline">
+                            <a class="icon fas fa-robot" style="color: white;"></span>
+                            <a href="javascript:void(0);" class="timeline-content part1">
+                                <h3 class="title">Aerial Robotics</h3>
+                                <p class="description">
+                                    Robotics has always been my passion. By being a part of the Team, I am trying to learn some aspects of aerial vehicles.
+                                    I've learnt ROS, OpenCV and how to use them with C++.
+                                </p>
+                            </a>
+                            <a href="javascript:void(0);" class="timeline-content part2" id="top2">
+                                <h3 class="title">Class 12<sup>th</sup> Boards</h3>
+                                <p class="description">
+                                    During my 12<sup>th</sup> boards, as you mav have already guessed, I was in the batch of 2020 and gave the exams during 
+                                    a pandemic! I got a nice 96.6% in the 12<sup>th</sup> boards.
+                                </p>
+                            </a>
+                        </div>
+                        <div class="timeline">
+                            <a class="icon fa fa-rocket" style="color: white;"></span>
+                            <a href="javascript:void(0);" class="timeline-content part1">
+                                <h3 class="title">Astronomy Club</h3>
+                                <p class="description">
+                                    I took part in a summer project by the SnT council titled 'Space: The Final Frontier' in which I literally got to know about ROCKET SCIENCE.
+                                    And frankly, it was one of the most amazing experiences till date!
+                                </p>
+                            </a>
+                            <a href="javascript:void(0);" class="timeline-content part2" id="top3">
+                                <h3 class="title">NTSE and KVPY</h3>
+                                <p class="description">
+                                    In class 10, I qualified the prestigious NTSE. I also qualified KVPY-SA and KVPY-SX in class 11<sup>th</sup> and class 12<sup>th</sup> respectively
+                                    The interview was a bit tough (may be due to nervousness), but I loved it!!
+                                </p>
+                            </a>
+                        </div>
+                        <div class="timeline">
+                            <a class="icon fa fa-mobile" style="color: white;"></span>
+                            <a href="javascript:void(0);" class="timeline-content">
+                                <h3 class="title">MnC Secy</h3>
+                                <p class="description">
+                                    I also am the Web Secratory (21-22) of the Media and Culture Council, IITK and it is my job to make sure that the website and all technical activities are 
+                                    up to date with the state-of-the-art technology.
+                                </p>
+                            </a>
+                        </div>
+                        <div class="timeline">
+                            <a class="icon fas fa-music" style="color: white;"></span>
+                            <a href="javascript:void(0);" class="timeline-content">
+                                <h3 class="title">Music</h3>
+                                <p class="description">
+                                    Music has undoubtedly played an integral role in my growth. If I hear any music, you can be damn sure I'mma vibe along. 
+                                    As a matter of fact, I have a degree in Vocal Music so, yeah, I can sing as well, I guess.
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact">
+            <div id="contact" style="height: 0px; width: 0px; transform: translateY(-70px);"></div>
+            <h1>Let's Collaborate!</h1>
+            <p>
+                Okay, so, enough about me.. I wanna get to know you!<br>
+                Drop me a text or contact me on social media:
+            </p>
+            <div class="laptop">
+                <form method="POST" autocomplete="off" name="google-sheet">
+                    <h1 style="font-size: 30px;">Contact ME:</h1>
+                    <div class="form-name">
+                        <div>
+                            <input type="text" name="First_Name" placeholder="First Name *" required><br>
+                        </div>
+                        <div>
+                            <input type="text" name="Last_Name" placeholder="Last Name"><br>
+                        </div>
+                    </div>
+                    <input type="email" name="Email_ID" placeholder="Email ID *" required><br>
+                    <!-- <input type="text" placeholder="Well, what do you think?" style="min-height: 200px; word-wrap: break-word; word-break: break-all;"> -->
+                    <textarea name="Message" placeholder="Well, what do you think?"></textarea>
+                    <div class="form-btn">
+                        <div>
+                            <input type="submit" class="form-submit" value="Submit">
+                        </div>
+                        <div>
+                            <input type="reset" class="form-reset" value="Reset">
+                        </div>
+                    </div>
+                </form>
+                <div class="social-media-form">
+                    <h1 class="form-h1">My Handles:</h1>
+                    <div class="social-media-icons">
+                        <a target="_blank" href="https://www.facebook.com/adit.jain.1675/" class="icon-init">
+                            <i class="fab fa-facebook-square"></i>
+                            <span>Facebook</span>
+                        </a>
+                        <a target="_blank" href="https://www.instagram.com/jadit_19/" class="icon-init">
+                            <i class="fab fa-instagram"></i>
+                            <span>Insta</span>
+                        </a>
+                        <a target="_blank" href="https://github.com/Jadit19" class="icon-init">
+                            <i class="fab fa-github"></i>
+                            <span>Github</span>
+                        </a>
+                        <a target="_blank" href="https://www.linkedin.com/in/adit-jain-658481b9?trk=people-guest_people_search-card" class="icon-init">
+                            <i class="fab fa-linkedin"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a target="_blank" href="mailto: jadit19@gmail.com" class="icon-init">
+                            <i class="fas fa-envelope"></i>
+                            <span>E-Mail</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="footer">
+            &copy; 2021 | Adit Jain
+        </section>
+
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbyyqvH8o8wr5TEClzkldgayO9Tm8sh5kJklgKe_l-QOdATGWc8/exec'
+            const form = document.forms['google-sheet']
+          
+            form.addEventListener('submit', e => {
+                e.preventDefault()
+                fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                    .then(response => alert("Thanks for Contacting Me!! I'll get back to you ASAP as possible :)"))
+                    .catch(error => console.error('Error!', error.message))
+            })
+        </script>
+        <script type="text/javascript" src="apps.js"></script>
+    </body>
+</html>
