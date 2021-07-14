@@ -1,0 +1,77 @@
+a{
+    text-decoration: none;
+}
+.sidebar{
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: 20%;
+    float: left;
+    font-family: "Raleway", sans-serif;
+    padding-top: 20px;
+}
+.center{
+    padding: 20px;
+    padding-left: 40px;
+    text-align: left;
+}
+.img1{
+    width: 100px;
+    border-radius: 50%;
+    padding-top: 20px;
+}
+.link{
+    width: 36px;
+    border-radius: 50%;
+    display: inline-block;
+}
+a{
+    color: white;
+}
+.github,.fb,.linkedin{
+    width: 35px;
+    border-radius: 50%;
+}
+.insta{
+    width: 33px;
+    border-radius: 50%;
+}
+/* .main_img{
+    width: 1200px;
+} */
+.maindiv{
+    padding-top: 1px;
+    font-family: "Raleway", sans-serif;
+}
+.about{
+    padding-left: 60px;
+    width: 50%;
+    float: left;
+}
+.photodiv{
+    display: inline-block;
+}
+.photoimg{
+    width: 350px;
+    padding-top: 50px;
+}
+.points{
+    display: inline-block;
+}
+/* ul{
+    list-style-type:none;
+    line-height: 200%;
+} */
+.icofont-rounded-right{
+    color: rgb(0, 97, 189);
+}
+.coursework{
+    padding-left: 360px;
+}
+.sem1, .sem2, .sem3{
+    width: 33%;
+    display: inline-block;
+}
+.none{
+    color: black;
+}
