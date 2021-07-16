@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+body{
+    background-image:url(template1.jpg);
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    color:whitesmoke;
+    font-family:'Muli';
+}
+.parent{
+    display:flex;
+    
+}
+.child2{
+  display:flex;
+  justify-content:flex-end;
+}
+.grandchild1{
+    width:200px;
+    height:60px;
+    background:black;
+    font-weight:bold;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding-top:10px;
+}
+.grandchild2{
+    width:200px;
+    height:60px;
+    background:black;
+    font-weight:bold;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding-top:10px;
+}
+.grandchild3{
+    
+    width:200px;
+    height:60px;
+    background:black;
+    font-weight:bolder;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding-top:10px;
+    
+}
+
+.grandchild4{
+    height:60px;
+    width:60px;
+    background:black;
+    font-weight:bolder;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    padding-top:10px;
+}
+.child1{
+    display:flex;
+    font-weight: bold;
+    padding-left:70px;
+    font-size:50px;
+    width:600px;
+    height:60px;
+    background:black;
+    padding-top:10px;
+}
+
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  .parent2{
+      width:300px;
+      position:relative;
+      top:90px;
+      left:90px;
+      height:2px;border-width:0;color:gray;background-color:gray;
+  }
+  .parent3{
+      position:relative;
+      top:120px;
+      left:60px;
+      font-size:30px;
+      font-weight:bolder;
+      
+  }
+  
+  .first{
+    position:relative;
+    top:135px;
+    left:100px;
+    border: none;
+    border-radius:5px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: whitesmoke;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color:black;
+    color: white;
+    border: 2px solid #555555;
+    font-weight:bolder;
+
+}
+.refone{
+    color:thistle;
+}
+a.refone.hover{
+    color:#555555;
+}
+.box{
+    display:flex;
+    flex:row;
+    position:relative;
+    top:150px;
+    justify-content: space-around;
+
+}
+.box1{
+    height:160px;
+    width:350px;
+    background:black;
+    font-weight:bold;
+    padding-top:10px;
+    padding-left:12px;
+    padding-right:10px;
+    padding-bottom:15px;
+}
+
+.line{
+    height:2px;border-width:0;color:gray;background-color:gray;width:55px;
+}
+.footer{
+    
+    display:flex;
+    position:relative;
+    left:100px;
+    top:170px;
+}  
+  
