@@ -1,0 +1,16 @@
+{
+    "name": "pokemonjs",
+    "version": "1.0.0",
+    "description": "",
+    "main": "singlepokemon.js",
+    "dependencies": {
+        "express": "^4.17.1",
+        "nodemon": "^2.0.12"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "start": "nodemon singlepokemon.js"
+    },
+    "author": "Kashish",
+    "license": "ISC"
+}
