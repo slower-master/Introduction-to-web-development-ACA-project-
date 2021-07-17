@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>COVID HELPLINES</title>
+    <link rel="icon" href="Vaccine-Icon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="vacc.css">
+</head>
+
+<body>
+    <header>
+        <div class="parent">
+            <div class="child1">
+                Covid Helplines.
+            </div>
+            <div class="child2">
+                <p>
+                <div class="grandchild1">
+                    <a href="https://indianhelpline.com/covidguide/" class="link1">HOME</a>
+                </div>
+                </p>
+                <div class="grandchild2">
+                    <p><a href="https://indianhelpline.com/covidguide/" class="link2">SERVICES</a></p>
+                </div>
+                <div class="grandchild3">
+                    <p><a href="https://indianhelpline.com/covidguide/" class="link3">WORKS</a></p>
+                </div>
+                <div class="grandchild4">
+                    <p><a href="https://indianhelpline.com/covidguide/" class="link4">HELP</a></p>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <div class="parent2"></div>
+    <div class="parent3">Set up realistic goals and break up the monotony to <br>
+        feel better .Reach out to people for help.</div>
+    <div class="parent4">
+        <button class="first"><a href="https://indianhelpline.com/covidguide/" class="refone">Click Here for
+                More</a></button>
+    </div>
+
+    <section class="box">
+        <div class="box1">
+
+            <h1>Children</h1>
+            <div class="line"></div><br>
+            Looking for foster homes for orphaned children and to provide with them families.<br>Working towards the
+            betterment for their lives.
+        </div>
+
+        <div class="box1">
+            <h1>Old people</h1>
+            <div class="line"></div><br>
+            Looking for old age homes for old people and to provide with them families.<br>Working towards the
+            betterment for their lives.
+        </div>
+
+        <div class="box1">
+            <h1>Women</h1>
+            <div class="line"></div><br>
+            Looking for a suitable occupation and to provide them with work opportunites.<br>Working towards the
+            betterment for their lives.
+        </div>
+    </section>
+
+    <footer class="footer">
+        THESE SERVICES ARE VAILD TILL: <div id="days"></div>
+        <div id="hours"></div>
+        <div id="mins"></div>
+        <div id="secs"></div>
+        <h2 id="end"></h2>
+    </footer>
+
+
+
+
+    <script>
+
+        var countDownDate = new Date("Jul 25, 2021 16:37:52").getTime();
+
+
+        var myfunc = setInterval(function () {
+
+            var now = new Date().getTime();
+            var timeleft = countDownDate - now;
+
+
+            var days = Math.floor(timeleft / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((timeleft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((timeleft % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((timeleft % (1000 * 60)) / 1000);
+
+
+            document.getElementById("days").innerHTML = days + "d "
+            document.getElementById("hours").innerHTML = hours + "h "
+            document.getElementById("mins").innerHTML = minutes + "m "
+            document.getElementById("secs").innerHTML = seconds + "s "
+
+
+            if (timeleft < 0) {
+                clearInterval(myfunc);
+                document.getElementById("days").innerHTML = ""
+                document.getElementById("hours").innerHTML = ""
+                document.getElementById("mins").innerHTML = ""
+                document.getElementById("secs").innerHTML = ""
+                document.getElementById("end").innerHTML = "TIME UP!!";
+            }
+        }, 1000);
+    </script>
+</body>
+
+</html>
