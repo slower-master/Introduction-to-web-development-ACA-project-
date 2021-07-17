@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="js project.css" rel="stylesheet">
+    <script src="js project.js" defer></script>
+</head>
+
+<body>
+    <h1>STOPWATCH</h1>
+    <h2>Javascript Stopwatch</h2>
+    <p><span id="seconds">00</span>:<span id="tens">00</span></p>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+    <button id="reset">Reset</button>
+</body>
+
+</html>

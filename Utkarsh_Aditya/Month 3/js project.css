@@ -1,0 +1,37 @@
+body {
+    text-align: center;
+    padding-top: 50px;
+    background-color: cyan;
+}
+
+h1 {
+    font-size: 50px;
+    color: darkblue;
+}
+
+h2 {
+    padding: 40px;
+    font-size: 40px;
+    color: darkblue;
+}
+
+p {
+    padding-bottom: 40px;
+    font-size: 40px;
+}
+
+#start,
+#stop {
+    margin-right: 50px;
+}
+
+button {
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-color: blue;
+    border-radius: 10px;
+    background-color: rgb(16, 224, 252);
+    color: blue;
+    font-size: 20px;
+}
