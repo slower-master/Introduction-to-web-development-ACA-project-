@@ -2,7 +2,7 @@
 This is the repository of work done so far [ACA](https://www.facebook.com/aca.cse.iitk/) Project intro to wed development
 
 ### Mentors
-- [Dinesh Ram](): dram@iitk.ac.in 
+- [Dinesh Ram](https://github.com/dinesh-cpu): dram@iitk.ac.in 
 - Hariom :harioms@iitk.ac.in
 
 ### Relevant Links
@@ -12,7 +12,7 @@ This is the repository of work done so far [ACA](https://www.facebook.com/aca.cs
 
 ```bash
 - HTML,CSS,JS : Front End implementation    
-- Nodejs  : For api implementation 
+- Nodejs  : For api implementation     #https://nodejs.org/en/
 - Mongodb : Database implementation    	# https://www.mongodb.com/
 ```
 ## Directory Structure
