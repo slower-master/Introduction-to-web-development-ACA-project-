@@ -244,3 +244,13 @@ a{
 .container .box .content:hover a::before{
 transform: skewX(45deg) translateX(200%);
 }
+.copyrightText{
+    width:100%;
+    padding: 1px 55px;
+    text-align: center;
+    color:white;
+    margin-left:-3.5%;
+    font-size: 30px;
+    font-style: bolder;
+    font-family: sans-serif;
+}
