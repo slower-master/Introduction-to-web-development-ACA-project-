@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form</title>
+    <style>
+        body {
+            text-align: center;
+            padding-top: 80px;
+        }
+    </style>
+    <script src="form.js" defer></script>
+</head>
+
+<body>
+    <form action="http://localhost:3000/post" method="GET">
+        <label for="Username"><b>USERNAME</b></label><br><br>
+        <input type="text" id="Username" name="username"><br><br>
+        <label for="Comment"><b>COMMENT</b></label><br><br>
+        <input type="text" id="Comment" name="comment"><br><br>
+        <button type="submit">Submit</button>
+    </form><br>
+    <form action="http://localhost:3000/post" method="POST">
+        <label for="Username"><b>USERNAME</b></label><br><br>
+        <input type="text" id="Username" name="username"><br><br>
+        <label for="Comment"><b>COMMENT</b></label><br><br>
+        <input type="text" id="Comment" name="comment"><br><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>
