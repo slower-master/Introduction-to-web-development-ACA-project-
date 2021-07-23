@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fraud Card Banking</title>
+        <link rel="stylesheet" href="/css/style.css">
+    </head>
+    <body>
+        <%- include('./partials/header.ejs') %>
+        <div class="wrapper">
+            <div class="behind" id="behind">
+                <img src="/img/visaLogo.png">
+                <div class="overlay" id="overlay"></div>
+                <div id="cardNumber" class="cardNumber">0000 0000 0000 0000</div>
+                <div id="nameDisplay" class="nameDisplay">Card Owner</div>
+                <div id="validity" class="validity">00/0000</div>
+                <div class="validThru">Valid<br>Thru</div>
+            </div>
+            <form action="/" method="POST">
+                <input name="userName" type="text" placeholder="Name on Card" id="inputName" oninput="updateName()" required>
+                <input name="cardNumber" type="number" placeholder="Card Number" id="inputCardNumber" oninput="updateCardNumber()" required>
+                <div class="chosen">
+                    <select name="month" id="month" onchange="updateValidity()">
+                        <option>-Select-</option>
+                    </select>
+                    <select name="year" id="year" onchange="updateValidity()">
+                        <option>-Select-</option>
+                    </select>
+                </div>
+                <input name="csv" type="number" placeholder="CSV" required>
+                <button type="submit">Add Credit Card</button>
+            </form>
+            <%- include('./partials/detailsBtn.ejs') %> 
+        </div>
+        <script src="/js/mainCard.js"></script>
+    </body>
+</html>
