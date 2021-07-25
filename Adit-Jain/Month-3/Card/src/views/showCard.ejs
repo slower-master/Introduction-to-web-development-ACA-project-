@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Card Details</title>
+        <link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="/css/showCard.css">
+    </head>
+    <body>
+        <%- include('./partials/header.ejs') %>
+        <div class="mainWrapper">
+            <% items.forEach(function(item, index) { %> 
+                <div class="card">
+                    <h2><%- item.userName %></h2><br>
+                    <p>Card Number:&nbsp;<%- item.cardNumber %></p>
+                    <p>Expiry:&nbsp;<%- item.month %>/<%- item.year %></p>
+                    <p>CSV:&nbsp;<%- item.csv %></p>
+                </div>
+            <% }) %> 
+        </div>
+        <div class="wrapper" style="background: transparent;">
+            <%- include('./partials/goHomeBtn.ejs') %>
+        </div>
+        <script src="/js/mainCard.js"></script>
+    </body>
+</html>
