@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <title>Credit Card</title>
+</head>
+<style>
+    body {
+        text-align: center;
+        background-color: #f0f1f3;
+        font-family: 'Lato', sans-serif;
+    }
+
+    .container {
+        width: 340px;
+        height: 600px;
+        margin: 5% 40% 5% 40%;
+        background-color: white;
+        color: rgb(122, 122, 233);
+    }
+
+    button {
+        font-weight: bold;
+        margin-top: 10px;
+        color: white;
+        border: none;
+        background-color: #38a294;
+        border-radius: 5px;
+        height: 45px;
+        width: 300px;
+    }
+
+    img {
+        width: 300px;
+        height: 180px;
+        margin-top: 20px;
+    }
+
+    .input {
+        width: 290px;
+        height: 45px;
+        margin-top: 5px;
+        margin-bottom: 6px;
+        border: 1px solid #999;
+        border-radius: 3px;
+        padding-left: 10px;
+    }
+
+    .cardNo {
+        position: absolute;
+        height: 50px;
+        top: 20%;
+        left: 44.5%;
+        color: white;
+        font-size: 21px;
+        text-shadow: 5px;
+        font-weight: bold;
+    }
+
+    .cardName {
+        position: absolute;
+        height: 50px;
+        top: 22%;
+        left: 42%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #bbb;
+        font-size: 17px;
+    }
+
+    .valid1 {
+        position: absolute;
+        top: 26%;
+        left: 52%;
+        color: #bbb;
+        z-index: 2;
+        font-size: 12px;
+    }
+
+    .validity {
+        position: absolute;
+        top: 26%;
+        left: 54%;
+        color: white;
+        z-index: 2;
+    }
+
+    .input1 {
+        width: 150px;
+        height: 45px;
+        margin-top: 5px;
+        margin-bottom: 6px;
+        border: 1px solid #999;
+        margin-left: 2px;
+        border-radius: 3px;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div>
+            <img src="/image/visacard.png">
+            <div id="cardNo" class="cardNo">0000 0000 0000 0000</div>
+            <div id="cardName" class="cardName">Card Owner</div>
+            <div id="validity" class="validity">00/0000</div>
+            <div class="valid1">Valid<br>Thru</div>
+        </div>
+        <form method="POST">
+            <input class="input" type="text" name="userName" id="inputName" placeholder="Name on Card"
+                oninput="NameChange()" required><br>
+            <input class="input" type="number" name="cardNumber" id="inputCardNumber" placeholder="Card Number"
+                oninput="CardNumberChange()" required>
+            <select required class="input1" name="month" id="month" onchange="ValidityChange()">
+                <option>--</option>
+            </select>
+            <select required class="input1" name="year" id="year" onchange="ValidityChange()" required>
+                <option>----</option>
+            </select>
+            <input class="input" type="text" id="cvv" name="cvv" placeholder="CVV" oninput="checkCVV()" required>
+            <br>
+            <button type="submit">Add Credit Card</button>
+        </form>
+        <a href="/AllCards"><button type="submit">Show All Card Details</button></a>
+    </div>
+    <script>
+        let i = 0;
+        let month = new Array(12);
+        let year = new Array(25);
+        let month1 = document.getElementById('month');
+        let year1 = document.getElementById('year');
+        for (i = 0; i < 12; i++) {
+            month[i] = document.createElement('option');
+            if (i < 9)
+                month[i].innerHTML = '0' + (i + 1);
+            else
+                month[i].innerHTML = i + 1;
+            month1.appendChild(month[i]);
+        }
+        for (i = 0; i < 25; i++) {
+            year[i] = document.createElement('option');
+            year[i].innerHTML = 2021 + i;
+            year1.appendChild(year[i]);
+        }
+        let inputCardNumber = document.getElementById('inputCardNumber');
+        let cardNo = document.getElementById('cardNo');
+        function CardNumberChange() {
+            if (inputCardNumber.value == '') {
+                cardNo.innerHTML = '0000 0000 0000 0000';
+                return;
+            }
+            var cardN1 = inputCardNumber.value;
+            if (cardN1 > 9999999999999999) {
+                alert('Card Number Is Invalid');
+            } else {
+                var newstring = cardN1.toString();
+                var formatCard = '';
+                for (i = 0; i < newstring.length; i++) {
+                    formatCard = formatCard + newstring[i];
+                    if (i % 4 == 3) {
+                        formatCard = formatCard + ' ';
+                    }
+                }
+                cardNo.innerHTML = formatCard;
+            }
+        }
+        let inputName = document.getElementById('inputName')
+        let nameOnCard = document.getElementById('cardName');
+        function NameChange() {
+            nameOnCard.innerHTML = inputName.value;
+        }
+        let validity = document.getElementById('validity');
+        function ValidityChange() {
+            let year_new1 = year1.value;
+            let month_new1 = month1.value;
+            validity.innerHTML = month_new1 + '/' + year_new1;
+            return;
+        }
+        let cvv = document.getElementById('cvv');
+        function checkCVV() {
+            let cvv1 = cvv.value;
+            if (cvv1 > 9999) {
+                alert('CVV Is Invalid');
+            }
+        }
+    </script>
+</body>
+
+</html>
