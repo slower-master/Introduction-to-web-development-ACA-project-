@@ -1,0 +1,21 @@
+{
+  "name": "bekend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "appp.js",
+  "scripts": {
+    "start": "nodemon appp.js",
+    "dev": "nodemon appp.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "hbs": "^4.1.2",
+    "mongodb": "^4.0.0",
+    "mongoose": "^5.13.2",
+    "nodemon": "^2.0.12"
+  },
+  "devDependencies": {},
+  "author": "suchit",
+  "license": "ISC"
+}
