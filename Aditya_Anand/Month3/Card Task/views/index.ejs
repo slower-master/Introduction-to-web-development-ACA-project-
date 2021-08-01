@@ -1,0 +1,46 @@
+<form action="http://localhost:5000/add" method="POST">
+    <input type="text" id="name" name="name" placeholder="Name on Card" onclick="add_name();">
+    <br><br>
+    <input type="number" id="cardNum" name="cardNum" placeholder="Card Number">
+    <br><br>
+    <input class="scrollbar" list="month" name="month" placeholder="Month">
+    <datalist id="month">
+        <option value="1"></option>
+        <option value="2"></option>
+        <option value="3"></option>
+        <option value="4"></option>
+        <option value="5"></option>
+        <option value="6"></option>
+        <option value="7"></option>
+        <option value="8"></option>
+        <option value="9"></option>
+        <option value="10"></option>
+        <option value="11"></option>
+        <option value="12"></option>
+    </datalist>
+    <input class="scrollbar" list="year" name="year" placeholder="Year">
+    <datalist id="year">
+        <option value="2021"></option>
+        <option value="2022"></option>
+        <option value="2023"></option>
+        <option value="2024"></option>
+        <option value="2025"></option>
+        <option value="2026"></option>
+        <option value="2027"></option>
+        <option value="2028"></option>
+        <option value="2029"></option>
+        <option value="2030"></option>
+        <option value="2031"></option>
+        <option value="2032"></option>
+    </datalist>
+    <br><br>
+    <input type="number" name="csv" placeholder="CSV">
+    <br><br>
+    <button class="button" type="submit" value="submit">ADD CREDIT CARD</button>
+</form>
+
+<!-- <script type="text/javascript" src ="../index.js">
+    var name_s = document.getElementById('name')
+    name[x] = name_s;
+    x++;
+</script> -->

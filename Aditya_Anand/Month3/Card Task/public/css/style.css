@@ -1,0 +1,33 @@
+body{
+    text-align: center;
+    background-color: #f0f1f3;
+}
+.img{
+    max-width: 95%;
+    padding: 10px;
+}
+.box{
+    margin: auto;
+    width: 30%;
+    color:black;
+    background-color: white;
+    border-style: solid;
+    border-color:white;
+    border-radius: 10px;
+    border-width: 1px;
+    padding: 10px;
+}
+input{
+    padding: 10px;
+    width: 95%;
+}
+.scrollbar{
+    width: 44%;
+}
+button{
+    width: 95%;
+    color:white;
+    background-color: #38a294;
+    padding: 10px;
+    border-radius: 5px;
+}
