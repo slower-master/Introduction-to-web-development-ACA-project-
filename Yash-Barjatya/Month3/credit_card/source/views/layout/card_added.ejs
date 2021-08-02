@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credit card Added</title>
+</head>
+
+<body>
+    <div class="container">
+        <% if (cards!=null){ %>
+            <% cards.forEach(card=>{ %>
+                <div class="Card_User">
+                    <p>
+                        Card Holder Name:&nbsp; <%- card.card_holder_name%>
+                    </p>
+                    <p>Card Number:&nbsp;<%- card.card_number %>
+                    </p>
+                    <p>Expiry:&nbsp;<%- card.expiry_month%>/<%- card.expiry_year%>
+                    </p>
+                    <p>CVV:&nbsp;<%- card.CVV %>
+                    </p>
+                </div>
+                <% }) %>
+                    <% } else{%>
+                        <p class="null">No cards added yet...</p>
+                        <%}%>
+    </div>
+</body>
+
+</html>
