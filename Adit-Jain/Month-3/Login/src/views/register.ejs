@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registration</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+        <link rel="stylesheet" href="/css/style.css">
+    </head>
+    <body>
+        <%- include('./partials/footer.ejs') %> 
+        <div class="container">
+            <h1 class="heading">Registration</h1>
+            <form id="regForm">
+                <input required autocomplete="off" type="text" id="firstname" placeholder="First Name">
+                <input autocomplete="off" type="text" id="lastname" placeholder="Last Name">
+                <input required autocomplete="off" type="email" id="email" placeholder="Email">
+                <input required autocomplete="off" type="text" id="username" placeholder="User Name">
+                <input required autocomplete="off" type="password" id="password" placeholder="Password" style="border-bottom: 1px solid #aaa;">
+                <div class="btnContainer">
+                    <a href="/forgot" class="forgot"><i class="fas fa-question-circle"></i>&nbsp;Forgot Password?</a>
+                    <div class="btns">
+                        <input type="submit" value="Submit" class="btn" style="margin-bottom: 5px">
+                        <a href="/login" class="btn">Login</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <script src="/js/register.js"></script>
+    </body>
+</html>

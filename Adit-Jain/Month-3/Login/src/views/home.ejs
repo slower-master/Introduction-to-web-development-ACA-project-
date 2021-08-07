@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Profile</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+        <link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="/css/success.css">
+    </head>
+    <body onload="tokenPresence()">
+        <%- include('./partials/footer.ejs') %> 
+        <div class="container">
+            <h1 class="heading">User Details</h1>
+            <div class="content">
+                <div class="mainContent">
+                    <div class="field">
+                        <div class="property">First Name:</div>
+                        <div class="data"></div>
+                    </div>
+                    <div class="field">
+                        <div class="property">Last Name:</div>
+                        <div class="data"></div>
+                    </div>
+                    <div class="field">
+                        <div class="property">User Name:</div>
+                        <div class="data"></div>
+                    </div>
+                    <div class="field">
+                        <div class="property">Email ID:</div>
+                        <div class="data"></div>
+                    </div>
+                </div>
+                <div class="btnContainer">
+                    <a href="/changePassword" class="btn" style="max-width: 180px">Change Password</a>
+                    <a class="btn" style="max-width: 120px" onclick="logoutFunction()">Logout</a>
+                </div>
+            </div>
+        </div>
+        <script src="/js/home.js"></script>
+    </body>
+</html>

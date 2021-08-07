@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+body{
+    background: #eaeaea;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.container{
+    width: calc(100% - 20px);
+    max-width: 500px;
+    margin: 10px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 5px;
+}
+.container h1{
+    width: 100%;
+    text-align: center;
+    background: #282830;
+    padding: 20px;
+    color: white;
+    text-transform: uppercase;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+}
+form::before{
+    content: '';
+    position: absolute;
+    top: -7px;
+    left: 50%;
+    width: 0px;
+    height: 0px;
+    border-bottom: 7px solid white;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+}
+form > input{
+    width: 100%;
+    padding: 15px;
+    font-size: 1rem;
+    outline: none;
+    border: 1px solid #aaa;
+    border-bottom: none;
+}
+
+.btnContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.forgot{
+    text-decoration: none;
+    color: #777;
+    margin: auto;
+    margin-left: 0px;
+}
+.forgot:hover{
+    text-decoration: underline;
+}
+.btns{
+    width: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    padding: 8px 16px;
+    text-decoration: none;
+    color: white;
+    background: #1dabb8;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    width: 100%;
+    text-align: center;
+    transition: 0.2s;
+}
+.btn:hover{
+    background: #199ba7;
+}
+
+footer{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: #282830;
+    padding: 10px;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer a:hover{
+    text-decoration: underline;
+}

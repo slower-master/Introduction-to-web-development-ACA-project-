@@ -53,7 +53,7 @@ function updateCardNumber(){
         for (i=0; i<str.length; i++){
             out = out + str[i];
             if (i%4 == 3){
-                out = out + ' ';
+                out = out + '-';
             }
         }
         cardNumber.innerHTML = out;

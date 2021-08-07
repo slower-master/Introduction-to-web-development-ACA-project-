@@ -1,0 +1,45 @@
+.content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+}
+.content::before{
+    content: '';
+    position: absolute;
+    top: -7px;
+    left: 50%;
+    width: 0px;
+    height: 0px;
+    border-bottom: 7px solid white;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+}
+
+.mainContent{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.field{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.field .property{
+    width: 50%;
+    padding: 10px;
+    /* text-align: ; */
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.field .data{
+    width: 50%;
+    padding: 10px;
+}
+
+h2{
+    margin-bottom: 20px;
+}
