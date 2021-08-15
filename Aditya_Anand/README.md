@@ -21,7 +21,7 @@ Major achivement: completed CSS, started with JavaScript.
 <br>
 <b>Week 7 & 8:</b>
 <br>
-Learned various syntax in Js, also made a site using HTML< CSS< and JS, and published on github.
+Learned various syntax in Js, also made a site using HTML, CSS, and JS, and published on github.
 <br>
 <br>
 <b>Week 9 & 10:</b>
