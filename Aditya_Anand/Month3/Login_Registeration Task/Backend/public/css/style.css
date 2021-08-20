@@ -1,0 +1,50 @@
+body{
+    text-align: center;
+    background-color: whitesmoke;
+    vertical-align: middle;
+}
+.main{
+    width: 20%;
+    margin: 0 auto;
+    background-color: white;
+    vertical-align: middle;
+}
+.heading{
+    background-color: #282830;
+    color: white;
+    padding: 1px;
+    /* height: 60px; */
+    
+}
+.content{
+    background-color: white;
+    padding: 10px;
+}
+input{
+    width: 95%;
+    height: 30px;
+}
+button{
+    float: right;
+    background-color: #1DABB8;
+    color: white;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#circle {
+    width: 20px;
+    height: 20px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background: grey;
+}
+.footer1{
+    float: left;
+}
