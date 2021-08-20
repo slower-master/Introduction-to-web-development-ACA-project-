@@ -1,6 +1,6 @@
-# Name: Yash  Barjatya
-
-# Roll No.: 201138
+# WEB DEVELOPMENT #
+## `Name: Yash  Barjatya` ##
+## `  Roll No.: 201138` ##
 
 ## First & Second week work:    
 
@@ -19,3 +19,10 @@ We learnt JS and we made our first Website using HTML+CSS+JS and completed few o
 ## Seventh and Eight week work :
 
 Till now we have been introduced to basic back-end web development . We learnt about express and completed an assignment on **GET and POST METHOD**.
+Did some assignments related to it.
+
+## Ninth and Tenth week work :
+Learnt about templating engine ***EJS*** and a introductory lecture to database and database management program like ***mongoDB***.
+
+## Eleventh and Twelfth week work :
+Made a credit-card detail storing system, where the details are stored in a .json file.
