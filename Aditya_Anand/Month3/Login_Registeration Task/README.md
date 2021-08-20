@@ -4,7 +4,7 @@ After comming inside backend folder,i.e,
 ```
 cd backend
 ```
-, do:
+do:
 ```
 npm run dev
 ```
