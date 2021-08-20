@@ -8,3 +8,5 @@ cd backend
 ```
 npm run dev
 ```
+
+Database name: dataDB
