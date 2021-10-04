@@ -15,3 +15,7 @@ Learnt Javascript basics, Published a site implementing HTML, CSS, JS and did th
 Started getting into the BackEnd World, completed Get-Post Task
 # ELeventh - Twelfth Week:
 Learnt more about Nodejs and Express, completed Get_Pokemon_Task
+# Thirteenth - Fourteenth Week:
+Completedd the Credit card with the help of nodejs, express
+# Fifteenth - Sixteenth Week:
+Understood basic concepts of MongoDb and implemented it in the Login_Register Task

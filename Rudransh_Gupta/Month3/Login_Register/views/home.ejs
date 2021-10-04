@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap" rel="stylesheet">
+    <title>Home</title>
+</head>
+<style>
+    body {
+        background: #eaeaea;
+    }
+    .container {
+        margin: auto;
+        text-align: center;
+        font-family: 'Merienda', cursive;
+        background-color: white;
+        width:550px;
+        height: 500px;
+        border-radius: 40px;
+        box-shadow:5px 5px black;
+    }
+
+    h1 {
+        font-size:60px;
+        background-color: transparent
+    }
+
+    li {
+        line-height: 30px;
+        list-style-type: none;
+        font-size: 25px;
+    }
+
+    a {
+        text-decoration: none;
+        background-color: transparent;
+    }
+
+    #register {
+        display: inline-block;
+        text-align: center;
+        height: 100px;
+        width: 120px;
+        border: 5px solid black;
+        border-radius: 10px;
+        position: absolute;
+        left: 600px;
+        top: 350px;
+        line-height: 100px;
+    }
+
+    #login {
+        display: inline-block;
+        text-align: center;
+        height: 100px;
+        width: 120px;
+        border: 5px solid black;
+        border-radius: 10px;
+        position: absolute;
+        left: 800px;
+        top: 350px;
+        line-height: 100px;
+    }
+    #welcome{
+        font-size:40px;
+        margin-top:80px;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <h1>HOME PAGE</h1>
+        <div id="welcome">Welcome To The Page!</div>
+        <li><a id="register" href="/register">Sign Up</a></li>
+        <li><a id="login" href="/login">Login</a></li>
+    </div>
+</body>
+
+</html>
